@@ -18,6 +18,18 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import pandas as pd
 import streamlit as st
 
+from app.database.connection import DB_PATH, is_postgres
+
+# Auto-initialize the demo SQLite database on first run. data/employee_analytics.db
+# is gitignored on purpose (it's generated data, not source), so a fresh checkout —
+# e.g. a new Streamlit Community Cloud deploy — won't have it yet. The CSV it's
+# built from (data/synthetic_employee_data.csv) IS committed, so we can build the
+# database from it automatically instead of requiring a manual setup step.
+if not is_postgres() and not DB_PATH.exists():
+    from app.database.load_data import main as _load_data
+    with st.spinner("First run on this deployment: setting up the demo database…"):
+        _load_data()
+        
 from app.api.copilot import CLARIFICATION_EXAMPLES, answer_question
 from app.api.feedback_store import get_feedback_stats, save_feedback
 from app.evaluation.eval_runner import run_eval
