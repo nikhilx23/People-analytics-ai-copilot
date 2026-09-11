@@ -1,0 +1,78 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: copilot_app
+      POSTGRES_PASSWORD: copilot_dev_pw
+      POSTGRES_DB: people_analytics
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U copilot_app -d people_analytics"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  # One-shot: applies the schema (drop + recreate, safe to re-run) and loads
+  # the synthetic dataset. api/frontend wait for this to exit 0 before
+  # starting, so neither ever queries a database that isn't populated yet -
+  # and only one container ever performs the load, avoiding two services
+  # racing to DROP/recreate the table at the same time.
+  db-init:
+    build: .
+    command: python3 -m app.database.load_data
+    environment:
+      DATABASE_URL: postgresql+psycopg2://copilot_app:copilot_dev_pw@db:5432/people_analytics
+    depends_on:
+      db:
+        condition: service_healthy
+
+  api:
+    build: .
+    command: uvicorn app.api.main:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql+psycopg2://copilot_app:copilot_dev_pw@db:5432/people_analytics
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-}
+      ENTRA_TENANT_ID: ${ENTRA_TENANT_ID:-}
+      ENTRA_CLIENT_ID: ${ENTRA_CLIENT_ID:-}
+      ENTRA_CLIENT_SECRET: ${ENTRA_CLIENT_SECRET:-}
+      ENTRA_DEPARTMENT_CLAIM: ${ENTRA_DEPARTMENT_CLAIM:-}
+    depends_on:
+      db-init:
+        condition: service_completed_successfully
+
+  # The Streamlit app imports app.api.copilot directly (it's a second UI on
+  # the same governed pipeline, not an HTTP client of the FastAPI service),
+  # so it only needs its own DB connection - it doesn't call `api` over the
+  # network. Both are still started together since they're the two faces
+  # of the same deployment.
+  frontend:
+    build: .
+    command: streamlit run frontend/app.py --server.address 0.0.0.0 --server.port 8501
+    ports:
+      - "8501:8501"
+    environment:
+      DATABASE_URL: postgresql+psycopg2://copilot_app:copilot_dev_pw@db:5432/people_analytics
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-}
+      ENTRA_TENANT_ID: ${ENTRA_TENANT_ID:-}
+      ENTRA_CLIENT_ID: ${ENTRA_CLIENT_ID:-}
+      ENTRA_CLIENT_SECRET: ${ENTRA_CLIENT_SECRET:-}
+      ENTRA_DEPARTMENT_CLAIM: ${ENTRA_DEPARTMENT_CLAIM:-}
+    depends_on:
+      db-init:
+        condition: service_completed_successfully
+
+volumes:
+  pgdata:
+
+# All of ANTHROPIC_API_KEY / ENTRA_* are optional - unset, the app falls
+# back automatically to the rule-based NL parser and the demo token->role
+# auth stub (see .env.example). To provide them, put a .env file next to
+# this compose file (docker compose reads it automatically) with the same
+# variable names.

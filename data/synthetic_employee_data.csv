@@ -1,0 +1,521 @@
+employee_id,full_name,department,job_title,job_level,location,hire_date,termination_date,termination_type,termination_reason,employee_status,salary,performance_rating,manager,last_promotion_date
+E00001,Gabrielle Davis,Sales,Account Executive,M1,Remote - US,2021-09-30,,,,Active,117115,Meets Expectations,Noah Rhodes,
+E00002,Ryan Munoz,Sales,Regional Sales Director,L1,"Austin, TX",2020-01-19,,,,Active,76225,Meets Expectations,Noah Rhodes,2023-04-12
+E00003,Monica Herrera,Product,Product Manager,L4,Remote - US,2019-01-27,,,,Active,205780,Exceeds Expectations,Abigail Shaffer,
+E00004,Jamie Arnold,Customer Support,Senior Support Associate,L1,"New York, NY",2023-04-06,,,,Active,43841,Below Expectations,Daniel Wagner,
+E00005,Lisa Hensley,Operations,Logistics Coordinator,L1,"Toronto, CA",2019-11-19,,,,Active,77250,Below Expectations,Gina Moore,
+E00006,Michele Williams,Customer Support,Support Team Lead,L1,"Austin, TX",2026-06-01,2026-08-30,Voluntary,Resigned - Relocation,Terminated,47967,Meets Expectations,Daniel Wagner,
+E00007,Dylan Miller,Product,Senior Product Manager,L4,"London, UK",2020-10-28,,,,Active,160311,Exceeds Expectations,Abigail Shaffer,2025-08-27
+E00008,Brian Ramirez,Marketing,Content Strategist,L2,"Denver, CO",2023-04-04,,,,Active,85246,Outstanding,Angie Henderson,
+E00009,Holly Wood,Human Resources,HR Generalist,L2,"Austin, TX",2022-07-16,,,,Active,88081,Exceeds Expectations,Connie Lawrence,
+E00010,Derek Zuniga,Human Resources,Recruiter,M1,"Denver, CO",2023-06-09,,,,Active,158506,Meets Expectations,Connie Lawrence,2024-10-28
+E00011,Lisa Jackson,Finance,Controller,L5,"Toronto, CA",2023-01-22,2023-12-02,Voluntary,Resigned - New Opportunity,Terminated,113809,Outstanding,Cristian Santos,
+E00012,Carla Gray,Marketing,Content Strategist,M2,"Toronto, CA",2025-09-08,,,,Active,90693,Meets Expectations,Angie Henderson,
+E00013,Margaret Hawkins DDS,Finance,Financial Analyst,M1,"New York, NY",2025-01-08,,,,Active,169091,Meets Expectations,Cristian Santos,2026-03-24
+E00014,Patty Perez,Operations,Operations Analyst,M1,Remote - US,2024-08-12,,,,Active,135885,Meets Expectations,Gina Moore,2026-06-28
+E00015,Ethan Adams,Customer Support,Support Associate,L3,"San Francisco, CA",2025-01-18,,,,Active,95771,Outstanding,Daniel Wagner,
+E00016,Tommy Walter,Operations,Operations Analyst,L1,"London, UK",2022-06-13,2023-01-30,Voluntary,Retirement,Terminated,59979,Meets Expectations,Gina Moore,
+E00017,Matthew Foster,Marketing,Content Strategist,M1,"Denver, CO",2025-03-01,,,,Active,100599,Meets Expectations,Angie Henderson,
+E00018,Judy Baker,Customer Support,Support Team Lead,L3,"Toronto, CA",2026-07-14,,,,Active,82852,Meets Expectations,Daniel Wagner,
+E00019,Justin Baker,Sales,Sales Development Rep,L2,"New York, NY",2022-10-16,2026-07-29,Involuntary,Involuntary - Policy Violation,Terminated,71893,Meets Expectations,Noah Rhodes,
+E00020,Stephanie Ross,Engineering,Senior Engineer,L1,"Austin, TX",2022-09-15,,,,Active,86471,Meets Expectations,Allison Hill,
+E00021,Zachary Hicks,Marketing,Brand Manager,L2,"Denver, CO",2023-07-26,,,,Active,79280,Exceeds Expectations,Angie Henderson,
+E00022,Anthony Rodriguez,Operations,Logistics Coordinator,L1,"New York, NY",2019-09-06,,,,Active,68994,Meets Expectations,Gina Moore,
+E00023,Rebecca Henderson,Customer Support,Support Team Lead,L4,"San Francisco, CA",2023-09-25,2024-02-13,Voluntary,Resigned - New Opportunity,Terminated,71225,Meets Expectations,Daniel Wagner,
+E00024,James Ferrell,Engineering,Software Engineer,M2,"Chicago, IL",2020-11-12,,,,Active,173692,Meets Expectations,Allison Hill,
+E00025,Tricia Valencia,Marketing,Brand Manager,L1,"Toronto, CA",2021-12-22,,,,Active,114315,Below Expectations,Angie Henderson,2026-02-02
+E00026,Nathan Maldonado,Operations,Operations Analyst,L2,Remote - US,2021-06-10,,,,Active,117966,Meets Expectations,Gina Moore,
+E00027,Debra Davidson,Engineering,Software Engineer,L5,"Denver, CO",2024-08-21,2025-01-28,Voluntary,Resigned - Relocation,Terminated,237044,Meets Expectations,Allison Hill,
+E00028,Jeffrey Chavez,Sales,Sales Development Rep,L4,"New York, NY",2025-05-22,,,,Active,119807,Meets Expectations,Noah Rhodes,
+E00029,Sherri Baker,Human Resources,HR Business Partner,L2,"London, UK",2021-09-04,,,,Active,78593,Exceeds Expectations,Connie Lawrence,
+E00030,Cassandra Gaines,Sales,Account Executive,L4,"New York, NY",2019-10-28,,,,Active,153903,Meets Expectations,Noah Rhodes,2024-09-25
+E00031,Elizabeth Fowler,Customer Support,Senior Support Associate,L3,"San Francisco, CA",2023-11-30,,,,Active,90675,Meets Expectations,Daniel Wagner,
+E00032,Brittany Farmer,Engineering,QA Engineer,L3,"New York, NY",2020-07-04,2023-02-11,Voluntary,Resigned - Career Change,Terminated,138142,Outstanding,Allison Hill,
+E00033,Paula Moreno,Human Resources,Recruiter,M1,Remote - US,2024-09-01,2025-09-09,Voluntary,Retirement,Terminated,122456,Outstanding,Connie Lawrence,
+E00034,Fred Smith,Engineering,Software Engineer,L3,"San Francisco, CA",2026-02-22,,,,Active,216292,Exceeds Expectations,Allison Hill,
+E00035,Sherry Decker,Product,Product Analyst,L1,"New York, NY",2019-11-05,,,,Active,148796,Meets Expectations,Abigail Shaffer,2021-03-31
+E00036,Anthony Humphrey,Marketing,Brand Manager,L2,"Austin, TX",2022-06-16,2023-11-18,Voluntary,Resigned - Career Change,Terminated,92348,Outstanding,Angie Henderson,
+E00037,Angelica Tucker,Customer Support,Support Team Lead,L1,"London, UK",2025-04-12,,,,Active,68606,Meets Expectations,Daniel Wagner,
+E00038,Philip Cannon,Customer Support,Support Associate,M2,"San Francisco, CA",2023-08-16,,,,Active,63592,Meets Expectations,Daniel Wagner,2025-10-10
+E00039,John Pierce,Customer Support,Senior Support Associate,L2,"New York, NY",2023-04-16,,,,Active,80270,Below Expectations,Daniel Wagner,2026-07-30
+E00040,Shane Henderson,Human Resources,HR Business Partner,M2,"Chicago, IL",2021-07-02,,,,Active,80153,Exceeds Expectations,Connie Lawrence,2022-11-21
+E00041,Joshua Blair,Finance,Finance Manager,M1,"Toronto, CA",2025-01-05,,,,Active,125439,Exceeds Expectations,Cristian Santos,
+E00042,Eric Carney,Finance,Financial Analyst,L1,"Toronto, CA",2022-11-16,,,,Active,109041,Meets Expectations,Cristian Santos,
+E00043,Jessica Holmes,Product,Product Analyst,L2,Remote - US,2019-07-01,,,,Active,153790,Exceeds Expectations,Abigail Shaffer,
+E00044,Danny Morgan,Customer Support,Senior Support Associate,L4,"New York, NY",2026-06-13,,,,Active,106689,Meets Expectations,Daniel Wagner,
+E00045,Crystal Robinson,Sales,Sales Manager,L5,Remote - US,2026-06-24,,,,Active,138781,Meets Expectations,Noah Rhodes,
+E00046,Mark Perez,Marketing,Content Strategist,L4,"Toronto, CA",2020-12-13,2022-05-17,Involuntary,Involuntary - Restructuring,Terminated,144512,Meets Expectations,Angie Henderson,
+E00047,Shannon Jones,Product,Product Analyst,L5,"London, UK",2024-03-19,,,,Active,168688,Meets Expectations,Abigail Shaffer,
+E00048,Michael Lewis,Marketing,Marketing Specialist,L3,"London, UK",2020-01-18,,,,Active,145339,Meets Expectations,Angie Henderson,
+E00049,Timothy Duncan,Customer Support,Support Associate,L1,"Austin, TX",2021-09-29,,,,Active,71744,Meets Expectations,Daniel Wagner,
+E00050,Richard Aguirre,Customer Support,Support Team Lead,M1,"Toronto, CA",2024-07-17,,,,Active,81623,Exceeds Expectations,Daniel Wagner,
+E00051,Brent Jordan,Sales,Regional Sales Director,L2,"San Francisco, CA",2024-10-22,2026-05-10,Voluntary,Resigned - Relocation,Terminated,111809,Meets Expectations,Noah Rhodes,
+E00052,John Daniel,Human Resources,HR Manager,L5,"Toronto, CA",2025-02-22,,,,Active,118578,Exceeds Expectations,Connie Lawrence,
+E00053,Victoria Garcia,Customer Support,Support Team Lead,L3,"Denver, CO",2026-01-11,,,,Active,65379,Meets Expectations,Daniel Wagner,
+E00054,Gerald Hensley,Customer Support,Senior Support Associate,L3,"London, UK",2025-01-21,2025-05-23,Voluntary,Resigned - Relocation,Terminated,58628,Exceeds Expectations,Daniel Wagner,
+E00055,Connor West,Product,Senior Product Manager,L3,"Denver, CO",2023-08-31,,,,Active,109944,Below Expectations,Abigail Shaffer,
+E00056,Donald Wright,Engineering,QA Engineer,L4,"Denver, CO",2019-01-25,,,,Active,239928,Meets Expectations,Allison Hill,
+E00057,Jessica Callahan,Product,Product Analyst,M1,"Chicago, IL",2024-06-22,,,,Active,142672,Meets Expectations,Abigail Shaffer,2025-12-11
+E00058,Amber Kidd,Product,Product Analyst,L2,"Denver, CO",2020-06-06,,,,Active,178264,Meets Expectations,Abigail Shaffer,
+E00059,Tracy House,Engineering,Software Engineer,M1,"Toronto, CA",2020-07-09,,,,Active,230556,Exceeds Expectations,Allison Hill,2023-05-10
+E00060,Carol Tucker,Human Resources,HR Business Partner,M2,"Toronto, CA",2022-02-13,,,,Active,146432,Below Expectations,Connie Lawrence,2023-07-30
+E00061,James Brown,Engineering,Staff Engineer,L2,"New York, NY",2026-04-23,,,,Active,98824,Exceeds Expectations,Allison Hill,
+E00062,William Baker,Engineering,QA Engineer,L2,"Chicago, IL",2020-06-01,,,,Active,139988,Exceeds Expectations,Allison Hill,
+E00063,Jordan Henderson,Finance,Finance Manager,L2,"New York, NY",2020-11-01,,,,Active,147177,Exceeds Expectations,Cristian Santos,2023-08-01
+E00064,Whitney Peters,Product,Senior Product Manager,M1,"Chicago, IL",2019-11-08,,,,Active,186275,Below Expectations,Abigail Shaffer,2024-03-26
+E00065,Brittney Phillips,Sales,Account Executive,L3,"Toronto, CA",2026-06-02,,,,Active,118854,Meets Expectations,Noah Rhodes,
+E00066,Lauren Daniels,Product,Senior Product Manager,L1,"Toronto, CA",2023-01-23,,,,Active,125122,Below Expectations,Abigail Shaffer,
+E00067,Amy Silva,Finance,Controller,L4,"Toronto, CA",2025-08-23,2026-03-25,Involuntary,Involuntary - Restructuring,Terminated,118913,Below Expectations,Cristian Santos,
+E00068,Sarah Moore,Operations,Logistics Coordinator,L5,"Toronto, CA",2022-10-09,,,,Active,73925,Below Expectations,Gina Moore,2024-12-16
+E00069,Angela Lopez,Finance,Finance Manager,L3,Remote - US,2025-03-26,,,,Active,81433,Outstanding,Cristian Santos,2026-07-08
+E00070,Megan Young,Customer Support,Support Team Lead,L4,"Denver, CO",2024-01-10,,,,Active,100540,Exceeds Expectations,Daniel Wagner,2025-09-15
+E00071,Steve Sanchez,Human Resources,HR Manager,L5,"London, UK",2023-10-09,,,,Active,168693,Meets Expectations,Connie Lawrence,
+E00072,Lisa Barnes,Finance,Finance Manager,L2,"New York, NY",2021-02-27,,,,Active,95243,Meets Expectations,Cristian Santos,
+E00073,Kelly Donovan,Customer Support,Support Associate,M1,"Denver, CO",2022-02-06,,,,Active,97252,Outstanding,Daniel Wagner,
+E00074,Mike Allen,Sales,Sales Development Rep,L3,"Chicago, IL",2023-01-18,,,,Active,99072,Exceeds Expectations,Noah Rhodes,
+E00075,Michael Evans,Engineering,QA Engineer,L3,"San Francisco, CA",2026-02-25,,,,Active,204129,Meets Expectations,Allison Hill,
+E00076,Paul Jones,Finance,Controller,L4,"Denver, CO",2022-10-27,,,,Active,110173,Exceeds Expectations,Cristian Santos,
+E00077,Zachary Ferrell,Sales,Regional Sales Director,L4,"New York, NY",2025-06-21,2025-11-18,Voluntary,Resigned - Relocation,Terminated,164645,Exceeds Expectations,Noah Rhodes,
+E00078,Daniel Baker,Product,Product Analyst,L5,"Chicago, IL",2024-11-10,,,,Active,161504,Outstanding,Abigail Shaffer,2026-06-17
+E00079,Shirley Suarez,Engineering,QA Engineer,M1,"New York, NY",2021-05-01,2022-06-15,Voluntary,Resigned - New Opportunity,Terminated,200751,Meets Expectations,Allison Hill,
+E00080,Christopher Bass,Engineering,Engineering Manager,L4,"Denver, CO",2022-04-07,2023-12-29,Voluntary,Resigned - Relocation,Terminated,127531,Meets Expectations,Allison Hill,
+E00081,Lisa Archer,Customer Support,Senior Support Associate,L1,"Chicago, IL",2026-04-06,,,,Active,45485,Meets Expectations,Daniel Wagner,
+E00082,Aimee Montoya,Engineering,Senior Engineer,M2,Remote - US,2025-09-03,,,,Active,215996,Meets Expectations,Allison Hill,
+E00083,Matthew Mcmillan,Sales,Regional Sales Director,M1,Remote - US,2023-07-07,2026-03-07,Voluntary,Resigned - New Opportunity,Terminated,201293,Meets Expectations,Noah Rhodes,
+E00084,Brian Rodriguez,Human Resources,HR Business Partner,L1,"New York, NY",2021-07-26,,,,Active,108233,Below Expectations,Connie Lawrence,
+E00085,Denise Jacobs,Finance,Financial Analyst,M2,"San Francisco, CA",2024-04-11,,,,Active,144972,Meets Expectations,Cristian Santos,2026-02-04
+E00086,Christina Walters,Operations,Operations Analyst,L4,"London, UK",2023-07-31,,,,Active,99664,Meets Expectations,Gina Moore,
+E00087,John Whitehead,Operations,Operations Manager,M1,"Toronto, CA",2025-03-03,,,,Active,74600,Exceeds Expectations,Gina Moore,2026-04-01
+E00088,Anna Henderson,Product,Product Analyst,M2,"Austin, TX",2026-05-17,2026-08-30,Voluntary,Resigned - Career Change,Terminated,218715,Meets Expectations,Abigail Shaffer,
+E00089,Aaron Wise,Operations,Operations Analyst,L2,Remote - US,2025-02-27,,,,Active,63515,Meets Expectations,Gina Moore,
+E00090,Deborah Figueroa,Engineering,QA Engineer,M2,"Chicago, IL",2020-10-10,,,,Active,161877,Exceeds Expectations,Allison Hill,
+E00091,Jessica Smith,Sales,Regional Sales Director,L1,"San Francisco, CA",2024-08-03,,,,Active,130847,Meets Expectations,Noah Rhodes,
+E00092,Stephen Mckee,Operations,Operations Manager,L2,"Denver, CO",2025-03-07,,,,Active,64401,Exceeds Expectations,Gina Moore,
+E00093,Sandra Aguilar,Marketing,Marketing Specialist,L3,"Toronto, CA",2022-10-24,,,,Active,155328,Meets Expectations,Angie Henderson,
+E00094,Cameron Parker,Finance,Controller,M2,"San Francisco, CA",2024-01-04,,,,Active,147012,Meets Expectations,Cristian Santos,
+E00095,Rebecca Valencia,Operations,Operations Manager,M2,"Chicago, IL",2021-09-05,2025-11-17,Voluntary,Retirement,Terminated,119816,Meets Expectations,Gina Moore,
+E00096,Christine Wright,Product,Senior Product Manager,M1,"San Francisco, CA",2024-07-21,,,,Active,229884,Exceeds Expectations,Abigail Shaffer,
+E00097,Richard Henson,Sales,Regional Sales Director,L1,"Denver, CO",2019-03-04,2022-05-22,Voluntary,Retirement,Terminated,114766,Meets Expectations,Noah Rhodes,
+E00098,Marc Moore,Human Resources,HR Manager,M1,"New York, NY",2022-09-07,,,,Active,155563,Below Expectations,Connie Lawrence,
+E00099,Sharon Cherry,Operations,Logistics Coordinator,L1,"New York, NY",2021-08-19,,,,Active,81621,Outstanding,Gina Moore,
+E00100,Sierra Johnson,Product,Product Manager,M2,"New York, NY",2023-12-23,,,,Active,136464,Meets Expectations,Abigail Shaffer,2025-11-19
+E00101,Evelyn Galvan,Finance,Finance Manager,L3,"Toronto, CA",2020-08-19,2021-10-06,Voluntary,Resigned - Relocation,Terminated,102966,Meets Expectations,Cristian Santos,
+E00102,Sharon Cochran,Product,Product Analyst,M1,"Chicago, IL",2024-07-31,,,,Active,223800,Exceeds Expectations,Abigail Shaffer,
+E00103,Richard Rodriguez,Finance,Financial Analyst,M2,"Denver, CO",2022-03-24,,,,Active,161471,Exceeds Expectations,Cristian Santos,
+E00104,Shannon Walker,Finance,Controller,M1,Remote - US,2024-02-15,,,,Active,178911,Exceeds Expectations,Cristian Santos,
+E00105,Julia Torres,Customer Support,Senior Support Associate,L5,"London, UK",2025-06-12,,,,Active,76631,Meets Expectations,Daniel Wagner,2026-08-01
+E00106,Crystal Johnson,Engineering,QA Engineer,M1,"Denver, CO",2022-03-18,,,,Active,219304,Meets Expectations,Allison Hill,
+E00107,Garrett Lin,Customer Support,Support Team Lead,L3,"San Francisco, CA",2026-01-17,2026-04-25,Voluntary,Retirement,Terminated,59334,Meets Expectations,Daniel Wagner,
+E00108,Diana May,Human Resources,Recruiter,L1,Remote - US,2022-08-31,,,,Active,95475,Exceeds Expectations,Connie Lawrence,2025-09-18
+E00109,William Herrera,Finance,Accountant,L3,"Denver, CO",2022-04-23,2026-05-07,Voluntary,Resigned - Relocation,Terminated,149183,Meets Expectations,Cristian Santos,2023-09-24
+E00110,Ashley Waller,Product,Product Analyst,L3,"New York, NY",2023-06-05,,,,Active,104940,Meets Expectations,Abigail Shaffer,
+E00111,Victor Baker,Finance,Controller,M2,"London, UK",2020-03-19,,,,Active,161183,Meets Expectations,Cristian Santos,
+E00112,Jeffrey Chandler,Human Resources,Recruiter,M1,"New York, NY",2026-02-15,,,,Active,152970,Outstanding,Connie Lawrence,
+E00113,Larry Dixon,Product,Product Manager,L2,"Austin, TX",2019-06-02,2023-10-28,Voluntary,Retirement,Terminated,117392,Meets Expectations,Abigail Shaffer,
+E00114,Kenneth Scott,Product,Product Analyst,M1,"San Francisco, CA",2023-08-27,,,,Active,193625,Below Expectations,Abigail Shaffer,
+E00115,April Frost,Finance,Financial Analyst,M1,"London, UK",2021-06-08,2024-09-25,Voluntary,Resigned - Career Change,Terminated,137111,Outstanding,Cristian Santos,
+E00116,Michelle Harmon,Human Resources,HR Generalist,L4,Remote - US,2021-02-16,2024-12-21,Voluntary,Resigned - Relocation,Terminated,166106,Outstanding,Connie Lawrence,
+E00117,Helen Jones,Engineering,Software Engineer,M2,"London, UK",2021-09-24,2026-07-15,Voluntary,Resigned - Relocation,Terminated,245619,Below Expectations,Allison Hill,2025-11-02
+E00118,Erin Edwards,Customer Support,Senior Support Associate,M2,"San Francisco, CA",2025-09-07,2026-04-13,Involuntary,Involuntary - Performance,Terminated,62536,Below Expectations,Daniel Wagner,
+E00119,Michelle Evans,Marketing,Marketing Specialist,M1,"Austin, TX",2020-06-23,2021-04-23,Involuntary,Involuntary - Restructuring,Terminated,85948,Below Expectations,Angie Henderson,
+E00120,Jason Powell,Marketing,Brand Manager,L5,"New York, NY",2019-09-18,2022-06-11,Involuntary,Involuntary - Policy Violation,Terminated,130933,Below Expectations,Angie Henderson,
+E00121,Cameron Fisher,Engineering,QA Engineer,L3,"Denver, CO",2026-03-20,,,,Active,214569,Exceeds Expectations,Allison Hill,
+E00122,Megan Orr,Product,Senior Product Manager,M1,"New York, NY",2024-07-01,,,,Active,200350,Meets Expectations,Abigail Shaffer,
+E00123,Elizabeth Kelley,Marketing,Marketing Specialist,L2,Remote - US,2026-01-01,,,,Active,112480,Meets Expectations,Angie Henderson,
+E00124,Dustin Jordan,Finance,Controller,L5,"Toronto, CA",2020-02-11,,,,Active,173481,Exceeds Expectations,Cristian Santos,
+E00125,Mary Marshall,Customer Support,Senior Support Associate,L4,"Chicago, IL",2023-08-22,2024-10-05,Voluntary,Retirement,Terminated,78702,Meets Expectations,Daniel Wagner,
+E00126,Daniel Kennedy,Finance,Finance Manager,L2,"Denver, CO",2019-10-02,,,,Active,77297,Exceeds Expectations,Cristian Santos,
+E00127,Rebecca Jackson,Human Resources,Recruiter,L5,"Austin, TX",2025-07-30,,,,Active,165052,Meets Expectations,Connie Lawrence,
+E00128,Jose Schultz,Product,Product Analyst,L1,Remote - US,2025-09-25,,,,Active,100402,Exceeds Expectations,Abigail Shaffer,
+E00129,Robert Potter,Marketing,Brand Manager,L2,"New York, NY",2022-12-05,,,,Active,128403,Meets Expectations,Angie Henderson,
+E00130,Courtney Gonzalez,Product,Product Analyst,M2,"Austin, TX",2025-10-30,,,,Active,225702,Below Expectations,Abigail Shaffer,
+E00131,David Alvarez,Marketing,Marketing Manager,M1,Remote - US,2022-10-23,2023-07-27,Voluntary,Resigned - New Opportunity,Terminated,118724,Exceeds Expectations,Angie Henderson,
+E00132,Angel Perry,Customer Support,Senior Support Associate,L4,"Denver, CO",2022-10-28,,,,Active,69971,Meets Expectations,Daniel Wagner,2024-04-18
+E00133,Cheyenne Horton,Marketing,Content Strategist,M2,"Austin, TX",2026-07-23,,,,Active,92454,Meets Expectations,Angie Henderson,
+E00134,David Douglas Jr.,Operations,Operations Manager,L3,"Chicago, IL",2024-09-29,,,,Active,71757,Meets Expectations,Gina Moore,2026-07-29
+E00135,Patricia Rodriguez,Finance,Financial Analyst,L2,"Toronto, CA",2025-09-20,,,,Active,74382,Exceeds Expectations,Cristian Santos,
+E00136,Christopher Rubio,Marketing,Marketing Manager,L3,"London, UK",2020-05-06,,,,Active,75416,Meets Expectations,Angie Henderson,2023-06-23
+E00137,Amber Wright,Customer Support,Support Team Lead,L5,"London, UK",2019-10-23,,,,Active,81499,Meets Expectations,Daniel Wagner,
+E00138,Joyce Solis,Sales,Sales Manager,L5,"Toronto, CA",2025-06-06,2025-11-30,Involuntary,Involuntary - Restructuring,Terminated,138317,Meets Expectations,Noah Rhodes,
+E00139,Victoria Larson,Operations,Logistics Coordinator,L3,"New York, NY",2023-11-24,,,,Active,126375,Meets Expectations,Gina Moore,
+E00140,Stephanie Salazar,Product,Senior Product Manager,M1,"London, UK",2021-06-26,2026-01-30,Voluntary,Resigned - Relocation,Terminated,155969,Exceeds Expectations,Abigail Shaffer,
+E00141,Kathy Rivas,Human Resources,HR Business Partner,M1,"San Francisco, CA",2021-08-25,,,,Active,87355,Meets Expectations,Connie Lawrence,2023-07-04
+E00142,Stephanie Manning,Sales,Sales Development Rep,M2,"Denver, CO",2024-03-15,,,,Active,179270,Meets Expectations,Noah Rhodes,
+E00143,David Wright,Human Resources,HR Business Partner,L2,"Denver, CO",2019-10-07,,,,Active,92824,Meets Expectations,Connie Lawrence,
+E00144,Pamela Boyd,Human Resources,HR Generalist,L3,"Denver, CO",2024-01-26,,,,Active,72027,Meets Expectations,Connie Lawrence,2025-04-27
+E00145,Denise Jones,Product,Senior Product Manager,L5,"Austin, TX",2024-01-17,,,,Active,223358,Meets Expectations,Abigail Shaffer,2026-05-18
+E00146,Devon Flores,Engineering,Engineering Manager,L1,"London, UK",2019-12-12,,,,Active,121492,Exceeds Expectations,Allison Hill,2025-11-08
+E00147,Brenda Hall,Marketing,Marketing Manager,L3,Remote - US,2023-05-06,,,,Active,110006,Meets Expectations,Angie Henderson,
+E00148,Michelle Brown,Human Resources,HR Generalist,L3,"New York, NY",2025-04-04,,,,Active,123609,Meets Expectations,Connie Lawrence,
+E00149,Joshua Perry,Marketing,Marketing Manager,L1,"San Francisco, CA",2022-12-03,2024-11-26,Voluntary,Resigned - New Opportunity,Terminated,75027,Meets Expectations,Angie Henderson,
+E00150,Jason Stein,Product,Product Analyst,M2,"London, UK",2020-06-07,,,,Active,195403,Below Expectations,Abigail Shaffer,
+E00151,Melissa Gates,Sales,Regional Sales Director,L5,"London, UK",2019-03-16,,,,Active,133423,Exceeds Expectations,Noah Rhodes,2025-08-27
+E00152,Jamie Smith,Marketing,Content Strategist,L1,Remote - US,2020-02-19,,,,Active,87615,Meets Expectations,Angie Henderson,
+E00153,Paul Castaneda,Human Resources,Recruiter,L5,"Toronto, CA",2020-09-23,,,,Active,92764,Below Expectations,Connie Lawrence,
+E00154,Jennifer Adkins,Marketing,Brand Manager,L1,"Toronto, CA",2023-02-01,,,,Active,98368,Meets Expectations,Angie Henderson,
+E00155,Lindsey Walker,Operations,Operations Analyst,L5,"Chicago, IL",2022-06-21,2025-04-21,Voluntary,Retirement,Terminated,153092,Below Expectations,Gina Moore,
+E00156,Jeffrey Johnson,Finance,Controller,L5,"Toronto, CA",2020-10-25,2025-12-18,Involuntary,Involuntary - Restructuring,Terminated,175956,Below Expectations,Cristian Santos,2023-03-21
+E00157,Michael Powell,Human Resources,HR Generalist,M1,"New York, NY",2022-03-13,,,,Active,85632,Exceeds Expectations,Connie Lawrence,
+E00158,John Anderson,Product,Product Manager,L2,"Denver, CO",2022-12-02,,,,Active,173742,Meets Expectations,Abigail Shaffer,
+E00159,Alyssa Long,Product,Product Manager,L3,"Chicago, IL",2019-04-26,,,,Active,136483,Exceeds Expectations,Abigail Shaffer,
+E00160,Alyssa Day,Marketing,Content Strategist,L1,Remote - US,2024-04-19,,,,Active,99624,Exceeds Expectations,Angie Henderson,
+E00161,Joel Williams,Engineering,Software Engineer,L1,Remote - US,2021-06-02,,,,Active,148173,Meets Expectations,Allison Hill,
+E00162,Daniel Murphy,Sales,Sales Manager,L2,Remote - US,2020-05-14,,,,Active,74297,Meets Expectations,Noah Rhodes,
+E00163,Jamie Walton,Sales,Regional Sales Director,L5,"Austin, TX",2026-02-01,,,,Active,151298,Meets Expectations,Noah Rhodes,
+E00164,Darlene Miller,Product,Product Manager,L5,"London, UK",2021-09-12,,,,Active,183767,Exceeds Expectations,Abigail Shaffer,
+E00165,Joshua Cooke,Human Resources,HR Generalist,L5,"Austin, TX",2023-05-19,,,,Active,157473,Exceeds Expectations,Connie Lawrence,
+E00166,Matthew Harrington,Engineering,Staff Engineer,M2,"New York, NY",2022-11-13,,,,Active,153279,Meets Expectations,Allison Hill,2025-06-30
+E00167,Nicole Herring,Human Resources,Recruiter,L1,"London, UK",2025-02-14,,,,Active,71143,Meets Expectations,Connie Lawrence,
+E00168,Alex Hernandez,Operations,Logistics Coordinator,L2,"San Francisco, CA",2019-09-16,2020-06-03,Voluntary,Resigned - Relocation,Terminated,101542,Outstanding,Gina Moore,
+E00169,Michael Elliott,Human Resources,HR Business Partner,L5,"Toronto, CA",2025-02-02,,,,Active,121079,Exceeds Expectations,Connie Lawrence,
+E00170,Michael Wang,Engineering,Staff Engineer,L3,"New York, NY",2023-02-16,,,,Active,156986,Meets Expectations,Allison Hill,
+E00171,Lawrence Adkins,Human Resources,Recruiter,L4,"Denver, CO",2023-02-13,,,,Active,162112,Meets Expectations,Connie Lawrence,
+E00172,Robert Oconnell,Sales,Regional Sales Director,L5,"San Francisco, CA",2025-02-12,,,,Active,125370,Exceeds Expectations,Noah Rhodes,2026-04-28
+E00173,Alexander Collins,Product,Product Manager,M1,"Denver, CO",2022-12-10,,,,Active,169314,Meets Expectations,Abigail Shaffer,
+E00174,Tina Sanders,Product,Senior Product Manager,M1,"Austin, TX",2019-11-04,,,,Active,195528,Meets Expectations,Abigail Shaffer,
+E00175,Angela Vaughn,Marketing,Marketing Specialist,L2,"Denver, CO",2019-05-23,,,,Active,74467,Meets Expectations,Angie Henderson,
+E00176,Ashley Barton,Engineering,QA Engineer,L2,"Denver, CO",2023-02-28,,,,Active,130341,Meets Expectations,Allison Hill,
+E00177,Lindsay Martinez,Product,Senior Product Manager,M1,Remote - US,2021-10-19,,,,Active,229380,Exceeds Expectations,Abigail Shaffer,2025-09-13
+E00178,Dr. Hannah Patterson,Sales,Sales Manager,M2,Remote - US,2024-01-02,,,,Active,116104,Meets Expectations,Noah Rhodes,
+E00179,Jonathan Peterson,Customer Support,Support Associate,L2,"New York, NY",2024-01-26,,,,Active,54388,Meets Expectations,Daniel Wagner,
+E00180,Samantha Garcia,Human Resources,HR Business Partner,M1,"New York, NY",2025-03-02,,,,Active,127337,Outstanding,Connie Lawrence,
+E00181,Madison Poole,Marketing,Marketing Manager,L5,"Chicago, IL",2020-05-12,2024-09-29,Involuntary,Involuntary - Policy Violation,Terminated,180550,Below Expectations,Angie Henderson,2024-02-17
+E00182,Jessica Gross,Operations,Logistics Coordinator,L2,"New York, NY",2019-09-27,,,,Active,75103,Outstanding,Gina Moore,
+E00183,Debra Morton,Product,Product Analyst,L1,"San Francisco, CA",2022-07-22,,,,Active,125638,Meets Expectations,Abigail Shaffer,
+E00184,Karen Graham,Marketing,Content Strategist,L4,"Austin, TX",2020-05-23,,,,Active,135014,Meets Expectations,Angie Henderson,2026-08-19
+E00185,Debra Christian,Human Resources,HR Business Partner,M2,"New York, NY",2021-10-23,,,,Active,95863,Outstanding,Connie Lawrence,2026-04-25
+E00186,Angelica Keith,Sales,Sales Development Rep,L5,"San Francisco, CA",2020-12-02,,,,Active,168071,Meets Expectations,Noah Rhodes,
+E00187,John Bishop,Engineering,Software Engineer,L1,"Austin, TX",2026-03-12,,,,Active,143010,Meets Expectations,Allison Hill,
+E00188,Allen Rosales,Product,Product Analyst,M1,"Austin, TX",2024-08-01,,,,Active,221012,Meets Expectations,Abigail Shaffer,
+E00189,Daniel Salinas,Customer Support,Support Team Lead,L4,Remote - US,2024-02-01,,,,Active,65910,Exceeds Expectations,Daniel Wagner,
+E00190,Spencer Haynes,Customer Support,Senior Support Associate,L5,"San Francisco, CA",2022-07-04,,,,Active,103837,Meets Expectations,Daniel Wagner,
+E00191,Adam Vaughan,Product,Product Manager,M2,"London, UK",2024-10-10,,,,Active,182713,Meets Expectations,Abigail Shaffer,
+E00192,Nathan Freeman,Customer Support,Support Associate,L1,"Austin, TX",2022-04-03,,,,Active,70532,Below Expectations,Daniel Wagner,
+E00193,Melissa Brewer,Marketing,Marketing Manager,L5,"London, UK",2021-02-16,,,,Active,158904,Meets Expectations,Angie Henderson,
+E00194,Ricky Davis II,Finance,Controller,L1,"New York, NY",2023-05-30,2026-06-06,Voluntary,Resigned - Career Change,Terminated,93870,Outstanding,Cristian Santos,2025-05-25
+E00195,Elizabeth Perkins,Operations,Operations Manager,L5,"Austin, TX",2020-03-16,,,,Active,107913,Outstanding,Gina Moore,
+E00196,Joseph Coleman,Human Resources,HR Generalist,L4,"Austin, TX",2025-05-24,,,,Active,129125,Meets Expectations,Connie Lawrence,2026-07-12
+E00197,Erin Warner,Finance,Financial Analyst,L2,"New York, NY",2023-06-02,,,,Active,99855,Outstanding,Cristian Santos,
+E00198,David Martinez,Marketing,Content Strategist,L5,"Toronto, CA",2024-08-10,,,,Active,88424,Exceeds Expectations,Angie Henderson,
+E00199,Bryan Herrera,Operations,Operations Analyst,L5,"San Francisco, CA",2022-09-05,,,,Active,150200,Meets Expectations,Gina Moore,
+E00200,Cathy Robinson,Finance,Finance Manager,L5,"Denver, CO",2025-04-24,,,,Active,122178,Below Expectations,Cristian Santos,
+E00201,Dr. William Warren,Product,Product Analyst,L3,"Austin, TX",2025-09-10,,,,Active,152620,Outstanding,Abigail Shaffer,
+E00202,Brian Lee,Customer Support,Support Team Lead,L1,"Denver, CO",2020-11-29,,,,Active,57287,Meets Expectations,Daniel Wagner,
+E00203,Christopher Smith,Customer Support,Support Associate,L5,"New York, NY",2021-02-20,,,,Active,63310,Meets Expectations,Daniel Wagner,2026-01-04
+E00204,Denise Mccann,Operations,Logistics Coordinator,M1,"Austin, TX",2020-07-19,,,,Active,115328,Meets Expectations,Gina Moore,
+E00205,Melissa Martinez,Product,Senior Product Manager,L2,"Denver, CO",2024-12-23,,,,Active,120809,Meets Expectations,Abigail Shaffer,
+E00206,Katherine Salas,Finance,Controller,L2,"Chicago, IL",2022-02-16,,,,Active,114646,Meets Expectations,Cristian Santos,
+E00207,Julie Alexander,Finance,Accountant,M1,"Denver, CO",2022-07-22,,,,Active,140899,Meets Expectations,Cristian Santos,
+E00208,Anthony Everett,Finance,Financial Analyst,L5,"Toronto, CA",2023-06-05,,,,Active,176111,Outstanding,Cristian Santos,
+E00209,Rodney Morales,Finance,Financial Analyst,L3,"Denver, CO",2026-05-10,,,,Active,104092,Meets Expectations,Cristian Santos,
+E00210,Mark Brown,Finance,Finance Manager,L2,"New York, NY",2025-11-26,2026-08-06,Voluntary,Resigned - Relocation,Terminated,129271,Meets Expectations,Cristian Santos,
+E00211,Justin Torres,Customer Support,Support Associate,L1,"Toronto, CA",2022-09-14,2023-11-01,Involuntary,Involuntary - Policy Violation,Terminated,63360,Exceeds Expectations,Daniel Wagner,
+E00212,Bailey Duran DDS,Product,Product Analyst,L4,"Denver, CO",2026-04-18,,,,Active,140336,Outstanding,Abigail Shaffer,
+E00213,Courtney Mills,Engineering,Software Engineer,M1,"Chicago, IL",2024-12-31,2025-05-07,Voluntary,Resigned - Relocation,Terminated,214727,Below Expectations,Allison Hill,
+E00214,Jeremy Dalton,Product,Senior Product Manager,L2,Remote - US,2019-06-03,,,,Active,90834,Meets Expectations,Abigail Shaffer,2024-03-05
+E00215,Elizabeth Oliver DDS,Operations,Operations Analyst,M2,"Denver, CO",2022-01-22,,,,Active,87792,Exceeds Expectations,Gina Moore,2025-08-18
+E00216,Theresa Clark,Marketing,Marketing Specialist,M1,"London, UK",2022-04-23,,,,Active,139858,Meets Expectations,Angie Henderson,2025-07-31
+E00217,Matthew Moore,Human Resources,HR Generalist,L4,"New York, NY",2021-01-26,2022-08-21,Involuntary,Involuntary - Restructuring,Terminated,167333,Meets Expectations,Connie Lawrence,
+E00218,Benjamin Smith,Operations,Operations Manager,L3,Remote - US,2025-07-13,,,,Active,117285,Exceeds Expectations,Gina Moore,
+E00219,Kirk Carter,Engineering,Software Engineer,L4,Remote - US,2020-10-16,,,,Active,173568,Meets Expectations,Allison Hill,
+E00220,Michael Warner,Finance,Financial Analyst,M1,Remote - US,2023-02-14,,,,Active,154921,Exceeds Expectations,Cristian Santos,2024-07-19
+E00221,Michael Bradshaw,Human Resources,HR Manager,M1,"Denver, CO",2025-01-10,,,,Active,150981,Below Expectations,Connie Lawrence,
+E00222,Lori Guerrero,Sales,Regional Sales Director,L5,"London, UK",2019-11-16,,,,Active,198317,Exceeds Expectations,Noah Rhodes,
+E00223,Jessica Stephens,Customer Support,Support Team Lead,L5,"San Francisco, CA",2020-11-04,,,,Active,78182,Meets Expectations,Daniel Wagner,2022-12-29
+E00224,Susan Serrano,Operations,Operations Analyst,L5,"Denver, CO",2019-08-16,2023-04-29,Voluntary,Retirement,Terminated,109815,Meets Expectations,Gina Moore,
+E00225,Christopher Parker,Engineering,Engineering Manager,L3,"Austin, TX",2021-06-11,,,,Active,172430,Exceeds Expectations,Allison Hill,2022-10-19
+E00226,Laura Roberts,Engineering,Software Engineer,L4,"Austin, TX",2022-03-21,,,,Active,173995,Meets Expectations,Allison Hill,
+E00227,Michael Lyons,Product,Senior Product Manager,L4,"Denver, CO",2023-03-27,,,,Active,160950,Meets Expectations,Abigail Shaffer,
+E00228,Kathryn Snyder,Human Resources,HR Generalist,L2,"Toronto, CA",2024-12-06,,,,Active,68914,Outstanding,Connie Lawrence,
+E00229,Andrew Reynolds,Finance,Controller,M1,"Toronto, CA",2024-12-18,2025-07-11,Voluntary,Resigned - Relocation,Terminated,130444,Meets Expectations,Cristian Santos,
+E00230,David Davis,Engineering,Engineering Manager,L5,"Austin, TX",2021-09-12,,,,Active,148951,Exceeds Expectations,Allison Hill,2026-01-18
+E00231,Sara Johnston,Engineering,Senior Engineer,M1,"Austin, TX",2023-07-06,,,,Active,177711,Meets Expectations,Allison Hill,
+E00232,Yvonne Chambers,Marketing,Marketing Manager,L2,"London, UK",2025-06-23,,,,Active,109843,Meets Expectations,Angie Henderson,2026-07-31
+E00233,Andrew Avila,Customer Support,Senior Support Associate,L3,Remote - US,2019-09-07,2026-02-28,Voluntary,Retirement,Terminated,78888,Meets Expectations,Daniel Wagner,
+E00234,Matthew Moon,Operations,Operations Analyst,L3,"Toronto, CA",2024-11-18,2025-10-20,Voluntary,Retirement,Terminated,87075,Meets Expectations,Gina Moore,
+E00235,Kevin Walters,Customer Support,Senior Support Associate,M2,"San Francisco, CA",2024-03-11,,,,Active,106399,Meets Expectations,Daniel Wagner,
+E00236,Brandon Bailey MD,Marketing,Brand Manager,L2,Remote - US,2021-04-12,,,,Active,89769,Exceeds Expectations,Angie Henderson,
+E00237,Shannon Rivera,Customer Support,Support Associate,L3,"Toronto, CA",2026-07-22,,,,Active,80941,Exceeds Expectations,Daniel Wagner,
+E00238,Donna Landry,Operations,Operations Analyst,M2,"London, UK",2022-05-26,,,,Active,152368,Exceeds Expectations,Gina Moore,
+E00239,Krista Gibson,Sales,Regional Sales Director,L2,"Chicago, IL",2023-06-13,,,,Active,152361,Meets Expectations,Noah Rhodes,
+E00240,Frank Cordova,Human Resources,HR Business Partner,L3,"London, UK",2024-10-01,,,,Active,140066,Meets Expectations,Connie Lawrence,
+E00241,Jose Travis,Human Resources,Recruiter,L3,"London, UK",2023-08-23,2026-07-05,Involuntary,Involuntary - Policy Violation,Terminated,72680,Below Expectations,Connie Lawrence,
+E00242,Kimberly Gutierrez,Product,Senior Product Manager,L2,"Chicago, IL",2022-09-13,,,,Active,110701,Meets Expectations,Abigail Shaffer,2025-08-04
+E00243,Isaiah Avila,Operations,Logistics Coordinator,M1,"Denver, CO",2024-03-02,2025-11-18,Voluntary,Resigned - New Opportunity,Terminated,85715,Below Expectations,Gina Moore,
+E00244,Olivia Harris,Engineering,Software Engineer,M2,"Austin, TX",2019-01-27,2024-06-06,Involuntary,Involuntary - Policy Violation,Terminated,174430,Below Expectations,Allison Hill,2021-10-06
+E00245,Tanya Kim,Human Resources,HR Generalist,L5,"Denver, CO",2026-05-24,,,,Active,122394,Exceeds Expectations,Connie Lawrence,
+E00246,Barbara Dudley,Engineering,Software Engineer,L5,Remote - US,2025-01-03,,,,Active,244218,Exceeds Expectations,Allison Hill,
+E00247,Cynthia Moore,Marketing,Marketing Specialist,L1,"San Francisco, CA",2021-09-14,,,,Active,67485,Meets Expectations,Angie Henderson,
+E00248,Kristen Davis,Product,Product Manager,L3,"Toronto, CA",2024-02-24,,,,Active,161977,Outstanding,Abigail Shaffer,2025-05-16
+E00249,Susan Murray MD,Engineering,Software Engineer,L4,"Toronto, CA",2023-03-25,2025-05-01,Voluntary,Retirement,Terminated,191758,Exceeds Expectations,Allison Hill,2024-09-15
+E00250,Kathleen Moran,Sales,Account Executive,L2,"Chicago, IL",2025-05-10,,,,Active,112795,Exceeds Expectations,Noah Rhodes,2026-06-14
+E00251,Denise Davenport,Engineering,Senior Engineer,M2,"London, UK",2019-03-06,,,,Active,242241,Meets Expectations,Allison Hill,
+E00252,Mrs. Kristen Reyes,Product,Product Manager,L3,"San Francisco, CA",2025-04-28,,,,Active,128388,Below Expectations,Abigail Shaffer,
+E00253,Katie Suarez,Human Resources,HR Manager,M2,"San Francisco, CA",2019-11-18,,,,Active,123572,Outstanding,Connie Lawrence,2025-10-12
+E00254,Desiree Tyler,Sales,Sales Manager,L5,"Toronto, CA",2022-08-29,,,,Active,94466,Meets Expectations,Noah Rhodes,
+E00255,Timothy Romero,Human Resources,HR Manager,L4,"San Francisco, CA",2025-07-27,,,,Active,138121,Exceeds Expectations,Connie Lawrence,
+E00256,Diane Evans,Sales,Account Executive,L3,"San Francisco, CA",2023-04-06,,,,Active,154158,Meets Expectations,Noah Rhodes,
+E00257,Yvonne Burns,Sales,Account Executive,L1,Remote - US,2023-12-27,,,,Active,87033,Meets Expectations,Noah Rhodes,2025-07-05
+E00258,Joshua Reed,Product,Product Manager,L1,"New York, NY",2022-12-20,,,,Active,118897,Meets Expectations,Abigail Shaffer,
+E00259,Kimberly Gibson,Engineering,Staff Engineer,L4,"Toronto, CA",2019-12-13,,,,Active,213018,Meets Expectations,Allison Hill,
+E00260,Colin Terry,Marketing,Brand Manager,L2,"San Francisco, CA",2022-01-06,,,,Active,87584,Meets Expectations,Angie Henderson,2025-06-14
+E00261,Cynthia Rowe,Finance,Controller,M2,"New York, NY",2023-01-19,,,,Active,117176,Meets Expectations,Cristian Santos,
+E00262,Patrick Thornton,Customer Support,Senior Support Associate,L1,"San Francisco, CA",2022-06-01,,,,Active,41012,Meets Expectations,Daniel Wagner,
+E00263,Jasmin Alvarado,Human Resources,HR Manager,L3,"Toronto, CA",2026-04-20,,,,Active,147425,Exceeds Expectations,Connie Lawrence,
+E00264,Veronica Simpson,Customer Support,Senior Support Associate,L3,"San Francisco, CA",2023-06-20,,,,Active,96419,Meets Expectations,Daniel Wagner,
+E00265,Jonathan Lawrence,Customer Support,Senior Support Associate,L4,Remote - US,2023-05-29,2026-03-29,Voluntary,Resigned - New Opportunity,Terminated,79957,Outstanding,Daniel Wagner,2025-12-07
+E00266,Shelly Alexander,Customer Support,Senior Support Associate,M2,Remote - US,2019-10-11,,,,Active,101792,Below Expectations,Daniel Wagner,
+E00267,Joyce Bowen,Finance,Accountant,L3,"San Francisco, CA",2023-09-30,,,,Active,153095,Exceeds Expectations,Cristian Santos,
+E00268,Matthew Moore,Product,Product Analyst,L5,"Toronto, CA",2025-02-04,,,,Active,121301,Outstanding,Abigail Shaffer,
+E00269,Wayne Morgan,Sales,Account Executive,M2,"Chicago, IL",2026-05-17,,,,Active,168769,Exceeds Expectations,Noah Rhodes,
+E00270,Marie Christian,Product,Senior Product Manager,M2,"Toronto, CA",2020-03-09,,,,Active,118234,Meets Expectations,Abigail Shaffer,
+E00271,Shannon James,Customer Support,Senior Support Associate,L3,"Toronto, CA",2024-03-11,,,,Active,88063,Meets Expectations,Daniel Wagner,
+E00272,Nathan Malone,Engineering,Engineering Manager,L1,Remote - US,2023-08-31,,,,Active,155084,Exceeds Expectations,Allison Hill,
+E00273,Amanda Jones,Human Resources,HR Business Partner,L3,"Denver, CO",2021-04-27,,,,Active,110949,Meets Expectations,Connie Lawrence,2026-05-14
+E00274,Tammie Bright,Human Resources,HR Generalist,L3,"Austin, TX",2020-04-16,2026-04-28,Voluntary,Resigned - Relocation,Terminated,70818,Meets Expectations,Connie Lawrence,2025-10-10
+E00275,Jessica Garcia,Marketing,Content Strategist,L3,"Toronto, CA",2024-03-07,,,,Active,94747,Meets Expectations,Angie Henderson,2026-05-23
+E00276,Shelia Wallace,Customer Support,Senior Support Associate,L5,"Toronto, CA",2023-05-12,,,,Active,62614,Exceeds Expectations,Daniel Wagner,2026-05-01
+E00277,Stephanie Williams,Sales,Account Executive,M2,"San Francisco, CA",2023-02-07,,,,Active,129140,Meets Expectations,Noah Rhodes,2026-07-09
+E00278,Elaine Brooks,Human Resources,HR Manager,L5,"Toronto, CA",2025-08-01,,,,Active,88395,Meets Expectations,Connie Lawrence,
+E00279,Joseph Knight,Finance,Financial Analyst,M1,"San Francisco, CA",2022-07-06,,,,Active,103257,Meets Expectations,Cristian Santos,2024-04-20
+E00280,Carolyn Miller,Product,Product Analyst,L2,"Toronto, CA",2023-09-29,,,,Active,106717,Meets Expectations,Abigail Shaffer,
+E00281,Lisa Allen,Marketing,Content Strategist,L4,Remote - US,2020-07-28,,,,Active,102742,Below Expectations,Angie Henderson,
+E00282,Briana Murray,Engineering,Engineering Manager,L2,"Chicago, IL",2023-04-22,,,,Active,186563,Meets Expectations,Allison Hill,
+E00283,David Smith,Product,Product Analyst,M2,"Denver, CO",2024-06-24,,,,Active,136568,Meets Expectations,Abigail Shaffer,
+E00284,Stephanie Byrd,Engineering,Staff Engineer,L2,Remote - US,2020-11-19,,,,Active,169170,Meets Expectations,Allison Hill,
+E00285,Jeremy Reed,Sales,Account Executive,L3,"London, UK",2025-01-29,,,,Active,165640,Exceeds Expectations,Noah Rhodes,
+E00286,Margaret Coleman,Product,Product Manager,M1,"Chicago, IL",2022-05-04,,,,Active,219352,Exceeds Expectations,Abigail Shaffer,2023-10-29
+E00287,Ryan Gonzalez,Sales,Sales Development Rep,L2,"London, UK",2025-11-04,,,,Active,126949,Exceeds Expectations,Noah Rhodes,
+E00288,John Young,Customer Support,Support Associate,M2,"Austin, TX",2025-05-24,,,,Active,79274,Meets Expectations,Daniel Wagner,
+E00289,Laura Haney,Finance,Finance Manager,L5,Remote - US,2024-10-08,,,,Active,193490,Meets Expectations,Cristian Santos,2026-05-06
+E00290,William Barrett,Finance,Accountant,M1,"San Francisco, CA",2021-10-19,,,,Active,106209,Meets Expectations,Cristian Santos,2026-08-03
+E00291,Keith Jennings,Marketing,Marketing Manager,M1,"Toronto, CA",2023-03-17,2025-07-09,Voluntary,Resigned - Career Change,Terminated,128569,Meets Expectations,Angie Henderson,
+E00292,Amber Obrien,Operations,Operations Manager,L3,"Austin, TX",2020-01-17,,,,Active,117887,Meets Expectations,Gina Moore,
+E00293,Tanner Mitchell DDS,Sales,Regional Sales Director,L2,"Toronto, CA",2021-05-17,,,,Active,114524,Meets Expectations,Noah Rhodes,2025-06-10
+E00294,Heather Fields,Operations,Operations Manager,M1,"Austin, TX",2019-07-08,2024-09-16,Involuntary,Involuntary - Performance,Terminated,79914,Below Expectations,Gina Moore,
+E00295,Megan Le,Operations,Operations Analyst,L4,"Chicago, IL",2020-06-24,,,,Active,146041,Meets Expectations,Gina Moore,
+E00296,Sara Fuller,Sales,Sales Manager,L3,"New York, NY",2023-03-04,,,,Active,149276,Meets Expectations,Noah Rhodes,2025-12-03
+E00297,Maria Parker,Customer Support,Senior Support Associate,M1,"New York, NY",2020-01-25,,,,Active,62452,Meets Expectations,Daniel Wagner,2022-05-02
+E00298,Kevin Oconnor,Operations,Operations Analyst,L1,"London, UK",2020-05-08,,,,Active,101345,Meets Expectations,Gina Moore,2021-09-30
+E00299,Edward Burgess,Sales,Account Executive,L1,"London, UK",2023-02-14,,,,Active,126895,Exceeds Expectations,Noah Rhodes,
+E00300,Carlos Ryan,Marketing,Content Strategist,L1,"Austin, TX",2025-11-04,,,,Active,96688,Meets Expectations,Angie Henderson,
+E00301,Kiara Mcintyre,Marketing,Brand Manager,L5,"Denver, CO",2021-06-08,,,,Active,92952,Exceeds Expectations,Angie Henderson,
+E00302,Dawn Summers,Product,Senior Product Manager,L4,"London, UK",2020-07-26,,,,Active,145991,Meets Expectations,Abigail Shaffer,2024-12-07
+E00303,Dr. Paul Morgan,Finance,Financial Analyst,M2,Remote - US,2021-04-21,,,,Active,144845,Meets Expectations,Cristian Santos,
+E00304,Victor Taylor,Engineering,Senior Engineer,L4,"Toronto, CA",2020-04-06,,,,Active,153273,Meets Expectations,Allison Hill,2026-03-31
+E00305,Shannon Ramsey,Human Resources,HR Business Partner,L2,"Toronto, CA",2025-05-17,,,,Active,89460,Meets Expectations,Connie Lawrence,2026-07-16
+E00306,Tracy Ballard,Sales,Account Executive,L5,"New York, NY",2019-02-26,,,,Active,121675,Exceeds Expectations,Noah Rhodes,2024-08-13
+E00307,Richard Smith,Product,Senior Product Manager,M1,"Toronto, CA",2019-12-04,,,,Active,191942,Meets Expectations,Abigail Shaffer,2021-11-10
+E00308,Jordan Chambers,Customer Support,Support Associate,L5,"London, UK",2023-05-20,,,,Active,90607,Meets Expectations,Daniel Wagner,
+E00309,Lauren Carson,Finance,Controller,M1,"Chicago, IL",2019-08-26,,,,Active,116425,Outstanding,Cristian Santos,2021-04-07
+E00310,Ashley Hall,Marketing,Marketing Specialist,L1,"San Francisco, CA",2019-02-16,,,,Active,65694,Outstanding,Angie Henderson,
+E00311,Stephen Hoffman,Finance,Accountant,L3,"San Francisco, CA",2022-01-05,,,,Active,147930,Exceeds Expectations,Cristian Santos,
+E00312,Connie Brown,Product,Senior Product Manager,L5,"New York, NY",2021-12-13,,,,Active,200341,Meets Expectations,Abigail Shaffer,2025-07-02
+E00313,Susan Turner,Engineering,Engineering Manager,M2,"San Francisco, CA",2023-02-15,,,,Active,142927,Below Expectations,Allison Hill,
+E00314,Charles Shah,Sales,Sales Development Rep,M1,"Austin, TX",2019-06-30,,,,Active,191466,Exceeds Expectations,Noah Rhodes,2024-07-28
+E00315,Johnathan Davis,Marketing,Content Strategist,M2,"Austin, TX",2025-03-14,,,,Active,162803,Meets Expectations,Angie Henderson,
+E00316,Brandy Chavez,Customer Support,Senior Support Associate,M1,"London, UK",2022-01-16,2024-07-15,Voluntary,Resigned - New Opportunity,Terminated,102130,Meets Expectations,Daniel Wagner,2023-05-03
+E00317,Natalie Bautista,Sales,Regional Sales Director,M2,Remote - US,2022-06-26,,,,Active,129294,Meets Expectations,Noah Rhodes,2024-08-09
+E00318,Patrick Moore,Finance,Accountant,L4,"London, UK",2025-08-20,,,,Active,192073,Outstanding,Cristian Santos,
+E00319,Brett Burns,Customer Support,Support Associate,L1,"Toronto, CA",2019-04-08,,,,Active,48127,Meets Expectations,Daniel Wagner,
+E00320,Trevor Johnson,Human Resources,HR Generalist,M2,"Toronto, CA",2022-06-13,,,,Active,87459,Meets Expectations,Connie Lawrence,2026-03-16
+E00321,Jeremy Sampson,Marketing,Marketing Manager,L1,"Austin, TX",2021-08-06,,,,Active,112452,Meets Expectations,Angie Henderson,
+E00322,Ariana Jennings,Sales,Account Executive,L5,"San Francisco, CA",2026-02-23,,,,Active,186935,Exceeds Expectations,Noah Rhodes,
+E00323,Vanessa Howard,Product,Product Analyst,L2,"Chicago, IL",2022-04-09,,,,Active,113489,Meets Expectations,Abigail Shaffer,
+E00324,Colton Martinez,Human Resources,HR Business Partner,L4,Remote - US,2021-08-14,,,,Active,84796,Exceeds Expectations,Connie Lawrence,
+E00325,Jordan Bates,Marketing,Marketing Specialist,L2,"Denver, CO",2024-03-23,,,,Active,88552,Exceeds Expectations,Angie Henderson,
+E00326,Linda Smith,Operations,Operations Manager,L4,Remote - US,2020-05-06,,,,Active,79140,Below Expectations,Gina Moore,2025-04-18
+E00327,Dana Martinez,Engineering,Senior Engineer,M2,"London, UK",2020-08-30,,,,Active,134764,Meets Expectations,Allison Hill,
+E00328,Andrea Hubbard,Finance,Finance Manager,M2,"San Francisco, CA",2019-05-08,,,,Active,190018,Below Expectations,Cristian Santos,
+E00329,Daniel Kane,Sales,Regional Sales Director,L1,"San Francisco, CA",2020-05-12,2024-10-12,Involuntary,Involuntary - Restructuring,Terminated,60414,Below Expectations,Noah Rhodes,
+E00330,Charles Lester,Sales,Sales Manager,M2,"New York, NY",2019-03-31,,,,Active,207667,Exceeds Expectations,Noah Rhodes,
+E00331,Scott Thomas,Sales,Sales Manager,L1,"Austin, TX",2024-03-03,,,,Active,63373,Outstanding,Noah Rhodes,
+E00332,David Thompson,Operations,Operations Analyst,L4,"Toronto, CA",2020-12-08,,,,Active,101408,Outstanding,Gina Moore,2024-06-08
+E00333,Allison Smith,Engineering,QA Engineer,L5,"Chicago, IL",2026-04-05,,,,Active,159945,Meets Expectations,Allison Hill,
+E00334,Cynthia Morris,Engineering,Software Engineer,L3,"Toronto, CA",2020-07-16,,,,Active,155051,Meets Expectations,Allison Hill,
+E00335,Anthony Harmon,Engineering,Engineering Manager,M2,"London, UK",2024-05-18,,,,Active,190747,Meets Expectations,Allison Hill,
+E00336,Nichole Alvarez,Product,Senior Product Manager,L2,"Austin, TX",2022-07-30,,,,Active,143740,Exceeds Expectations,Abigail Shaffer,
+E00337,Kayla Rodriguez,Operations,Logistics Coordinator,L3,"Chicago, IL",2020-10-15,,,,Active,70735,Meets Expectations,Gina Moore,2026-05-13
+E00338,Theresa Williams,Engineering,Senior Engineer,L5,"Toronto, CA",2022-12-24,,,,Active,238997,Outstanding,Allison Hill,2024-08-22
+E00339,Sharon Boyd,Human Resources,HR Generalist,M1,"London, UK",2025-05-14,,,,Active,129288,Meets Expectations,Connie Lawrence,2026-08-25
+E00340,Victor Brown,Operations,Logistics Coordinator,L3,"San Francisco, CA",2024-07-01,2024-09-29,Involuntary,Involuntary - Restructuring,Terminated,66087,Exceeds Expectations,Gina Moore,
+E00341,James Parks,Human Resources,Recruiter,M2,"San Francisco, CA",2022-10-27,,,,Active,143241,Outstanding,Connie Lawrence,
+E00342,Theodore Jones Jr.,Engineering,Senior Engineer,L5,"San Francisco, CA",2020-03-30,,,,Active,228040,Below Expectations,Allison Hill,
+E00343,Ana Hill,Product,Product Analyst,L1,"London, UK",2022-05-21,,,,Active,101179,Outstanding,Abigail Shaffer,
+E00344,Kimberly Nguyen,Operations,Logistics Coordinator,L3,"San Francisco, CA",2025-04-20,,,,Active,115093,Outstanding,Gina Moore,
+E00345,Kerry Chavez DDS,Marketing,Brand Manager,L3,Remote - US,2020-06-05,,,,Active,90077,Exceeds Expectations,Angie Henderson,
+E00346,Michael Farrell,Engineering,Senior Engineer,L5,"London, UK",2025-11-09,,,,Active,150780,Meets Expectations,Allison Hill,
+E00347,Patricia Le,Marketing,Marketing Manager,M1,"New York, NY",2021-09-01,,,,Active,118313,Meets Expectations,Angie Henderson,
+E00348,Jesse Perez,Human Resources,HR Manager,L1,Remote - US,2021-05-08,,,,Active,65847,Exceeds Expectations,Connie Lawrence,2022-12-15
+E00349,Jesse Perry,Engineering,Engineering Manager,L4,"Toronto, CA",2020-11-12,,,,Active,232742,Meets Expectations,Allison Hill,
+E00350,Jeffery Ortega,Sales,Regional Sales Director,M2,"Chicago, IL",2020-10-28,,,,Active,143800,Below Expectations,Noah Rhodes,2021-12-08
+E00351,Christian Leblanc,Sales,Account Executive,L3,"San Francisco, CA",2023-03-18,,,,Active,97153,Exceeds Expectations,Noah Rhodes,
+E00352,Ronald Davis,Human Resources,HR Manager,M1,"Austin, TX",2023-11-02,2025-01-04,Voluntary,Resigned - New Opportunity,Terminated,163762,Exceeds Expectations,Connie Lawrence,
+E00353,Parker Cain,Customer Support,Support Associate,L4,Remote - US,2026-05-29,2026-08-28,Voluntary,Retirement,Terminated,75941,Meets Expectations,Daniel Wagner,
+E00354,Laurie Hoffman,Engineering,Staff Engineer,L1,"Toronto, CA",2019-12-25,,,,Active,104534,Meets Expectations,Allison Hill,
+E00355,Bryan Gomez,Engineering,Senior Engineer,L2,Remote - US,2019-12-02,,,,Active,139989,Exceeds Expectations,Allison Hill,
+E00356,Nicole Parrish,Finance,Financial Analyst,M1,"Toronto, CA",2021-01-27,,,,Active,129586,Meets Expectations,Cristian Santos,2022-04-28
+E00357,Tracy Burke,Operations,Operations Manager,L2,Remote - US,2025-04-30,2026-05-02,Voluntary,Resigned - Career Change,Terminated,59006,Meets Expectations,Gina Moore,
+E00358,Kenneth Lewis,Product,Product Analyst,L2,"Austin, TX",2023-05-05,,,,Active,163656,Meets Expectations,Abigail Shaffer,
+E00359,Courtney Rodriguez,Operations,Logistics Coordinator,L2,"Denver, CO",2022-05-09,,,,Active,60132,Outstanding,Gina Moore,
+E00360,Holly Farmer,Marketing,Marketing Specialist,M2,"Denver, CO",2020-12-09,2021-08-16,Voluntary,Retirement,Terminated,177033,Exceeds Expectations,Angie Henderson,
+E00361,Renee Bruce,Product,Product Manager,M2,"San Francisco, CA",2025-09-03,,,,Active,147172,Outstanding,Abigail Shaffer,
+E00362,Sabrina Austin,Sales,Account Executive,L4,"Toronto, CA",2025-03-11,,,,Active,129156,Meets Expectations,Noah Rhodes,
+E00363,Allison Hickman,Product,Product Manager,L4,"San Francisco, CA",2020-08-30,2022-01-15,Voluntary,Resigned - New Opportunity,Terminated,183291,Meets Expectations,Abigail Shaffer,
+E00364,Debra White,Finance,Finance Manager,L4,Remote - US,2023-04-18,2024-05-06,Voluntary,Retirement,Terminated,159097,Meets Expectations,Cristian Santos,
+E00365,Ellen Morgan,Product,Product Manager,L4,"London, UK",2021-08-31,2023-08-27,Involuntary,Involuntary - Restructuring,Terminated,122767,Meets Expectations,Abigail Shaffer,
+E00366,Sergio Knight,Finance,Controller,M2,"New York, NY",2021-07-22,,,,Active,104976,Outstanding,Cristian Santos,
+E00367,Charles Schultz,Finance,Controller,L5,"New York, NY",2021-02-08,,,,Active,136938,Outstanding,Cristian Santos,
+E00368,Paul Lewis,Human Resources,HR Generalist,L5,"San Francisco, CA",2019-09-26,,,,Active,106312,Meets Expectations,Connie Lawrence,2026-08-12
+E00369,Glen Wood,Engineering,Senior Engineer,L2,"Chicago, IL",2019-08-25,,,,Active,118701,Meets Expectations,Allison Hill,
+E00370,Paula Bradley,Finance,Finance Manager,M2,"Denver, CO",2024-08-30,,,,Active,132281,Outstanding,Cristian Santos,
+E00371,Anthony Moore,Operations,Logistics Coordinator,L4,"San Francisco, CA",2024-04-27,,,,Active,121091,Meets Expectations,Gina Moore,2026-07-28
+E00372,Megan Nelson,Sales,Sales Manager,L1,"Toronto, CA",2019-07-23,,,,Active,71962,Meets Expectations,Noah Rhodes,
+E00373,Karla Ramos,Customer Support,Support Team Lead,L2,Remote - US,2026-04-22,,,,Active,63151,Exceeds Expectations,Daniel Wagner,
+E00374,Paul Wilson,Engineering,Engineering Manager,L2,"San Francisco, CA",2025-09-28,,,,Active,171082,Meets Expectations,Allison Hill,
+E00375,Douglas Gregory,Finance,Finance Manager,L4,"Toronto, CA",2022-11-29,,,,Active,138735,Exceeds Expectations,Cristian Santos,2025-05-15
+E00376,Mr. Andrew Foster,Product,Product Analyst,L1,"Austin, TX",2024-09-26,,,,Active,152956,Outstanding,Abigail Shaffer,
+E00377,Aimee Turner,Finance,Finance Manager,M1,"New York, NY",2024-05-27,,,,Active,97639,Outstanding,Cristian Santos,
+E00378,Chad Scott,Finance,Finance Manager,L2,"San Francisco, CA",2024-10-19,,,,Active,131237,Outstanding,Cristian Santos,
+E00379,Adam Burgess,Product,Product Analyst,L3,"San Francisco, CA",2019-04-15,,,,Active,171333,Outstanding,Abigail Shaffer,2024-12-23
+E00380,James Padilla,Engineering,QA Engineer,M1,"Chicago, IL",2022-11-06,,,,Active,213228,Meets Expectations,Allison Hill,
+E00381,Sandra Drake,Human Resources,HR Business Partner,M2,"San Francisco, CA",2026-05-17,2026-08-23,Voluntary,Resigned - Relocation,Terminated,157761,Exceeds Expectations,Connie Lawrence,
+E00382,Scott Williams,Marketing,Marketing Manager,M1,"New York, NY",2021-06-29,,,,Active,119140,Meets Expectations,Angie Henderson,2024-05-07
+E00383,Thomas Atkins,Finance,Controller,M2,"New York, NY",2024-04-11,,,,Active,96582,Meets Expectations,Cristian Santos,
+E00384,Laura Mckinney,Operations,Operations Analyst,L5,"New York, NY",2023-04-13,2025-06-12,Voluntary,Resigned - Relocation,Terminated,116271,Meets Expectations,Gina Moore,
+E00385,Brian Smith,Product,Product Analyst,L4,"San Francisco, CA",2022-07-19,,,,Active,217900,Exceeds Expectations,Abigail Shaffer,2025-05-30
+E00386,Robert Montgomery,Marketing,Marketing Manager,M1,"Austin, TX",2019-01-20,,,,Active,128575,Exceeds Expectations,Angie Henderson,
+E00387,Tamara Davis,Marketing,Brand Manager,M2,"New York, NY",2020-06-14,,,,Active,144411,Meets Expectations,Angie Henderson,
+E00388,Dana Chapman,Product,Product Manager,L1,"Chicago, IL",2023-03-09,,,,Active,149180,Outstanding,Abigail Shaffer,
+E00389,Jennifer Collins,Engineering,Software Engineer,M1,"Chicago, IL",2021-07-15,,,,Active,209150,Meets Expectations,Allison Hill,2024-09-07
+E00390,Gary Jackson,Finance,Accountant,L1,"Austin, TX",2022-05-06,,,,Active,123995,Meets Expectations,Cristian Santos,
+E00391,Ashley Hicks,Product,Product Analyst,L2,"London, UK",2024-06-30,,,,Active,122332,Exceeds Expectations,Abigail Shaffer,
+E00392,Hannah Luna,Product,Product Manager,L2,"Chicago, IL",2020-06-21,2024-12-03,Voluntary,Resigned - New Opportunity,Terminated,109007,Exceeds Expectations,Abigail Shaffer,
+E00393,Robin Young,Finance,Financial Analyst,L5,"Austin, TX",2026-06-04,,,,Active,102243,Below Expectations,Cristian Santos,
+E00394,Craig Morrison,Product,Senior Product Manager,L4,"New York, NY",2025-02-19,,,,Active,146570,Meets Expectations,Abigail Shaffer,2026-08-13
+E00395,Mary Thompson,Finance,Controller,M1,"New York, NY",2026-06-06,,,,Active,145112,Meets Expectations,Cristian Santos,
+E00396,Kathleen Webster,Product,Product Manager,L5,"New York, NY",2022-03-03,,,,Active,130339,Exceeds Expectations,Abigail Shaffer,2024-04-15
+E00397,Joann Glass,Customer Support,Senior Support Associate,M1,"Toronto, CA",2022-04-24,,,,Active,70113,Meets Expectations,Daniel Wagner,
+E00398,Madison Weber,Operations,Operations Manager,L2,"Austin, TX",2019-02-22,,,,Active,98656,Outstanding,Gina Moore,
+E00399,Lori Hernandez,Marketing,Marketing Specialist,M2,"New York, NY",2020-02-19,,,,Active,172715,Meets Expectations,Angie Henderson,
+E00400,Jeremy Turner,Finance,Controller,L1,"New York, NY",2020-12-16,,,,Active,118941,Below Expectations,Cristian Santos,
+E00401,Anthony Romero,Product,Product Analyst,L1,"New York, NY",2019-07-07,,,,Active,77239,Exceeds Expectations,Abigail Shaffer,
+E00402,Jesse Brown,Operations,Logistics Coordinator,L3,"New York, NY",2023-03-07,,,,Active,124168,Exceeds Expectations,Gina Moore,
+E00403,Angela Lin,Finance,Controller,M1,"Denver, CO",2023-09-24,,,,Active,158480,Below Expectations,Cristian Santos,2024-11-22
+E00404,Lisa Hunter,Marketing,Marketing Specialist,L4,"Denver, CO",2025-05-19,,,,Active,150643,Exceeds Expectations,Angie Henderson,
+E00405,Julian Conner,Engineering,Senior Engineer,L4,"Denver, CO",2020-04-07,,,,Active,233117,Meets Expectations,Allison Hill,2024-12-08
+E00406,Joanna Pacheco,Customer Support,Support Team Lead,M2,"London, UK",2024-10-27,,,,Active,87561,Meets Expectations,Daniel Wagner,2026-03-03
+E00407,Erica Alvarez,Product,Product Manager,M2,"Austin, TX",2019-02-17,,,,Active,192277,Exceeds Expectations,Abigail Shaffer,
+E00408,Antonio Garcia,Marketing,Marketing Specialist,M2,"Denver, CO",2022-08-06,,,,Active,107986,Outstanding,Angie Henderson,2024-11-04
+E00409,Gwendolyn Klein,Product,Senior Product Manager,M2,"Chicago, IL",2019-11-19,,,,Active,170714,Below Expectations,Abigail Shaffer,
+E00410,Carrie Wright,Operations,Operations Manager,L1,"Denver, CO",2026-04-30,2026-08-03,Voluntary,Resigned - New Opportunity,Terminated,47731,Meets Expectations,Gina Moore,
+E00411,Jeffrey Mills,Finance,Accountant,M1,"Denver, CO",2022-10-28,,,,Active,128787,Exceeds Expectations,Cristian Santos,2026-05-15
+E00412,Jake Campbell,Operations,Logistics Coordinator,M1,"London, UK",2024-01-28,,,,Active,81134,Meets Expectations,Gina Moore,2026-01-11
+E00413,George Harper,Finance,Finance Manager,M1,"New York, NY",2019-07-07,,,,Active,184275,Meets Expectations,Cristian Santos,
+E00414,Maria Jones,Product,Product Manager,L3,"Chicago, IL",2021-02-07,2021-12-14,Voluntary,Resigned - Career Change,Terminated,115997,Below Expectations,Abigail Shaffer,
+E00415,Michael Mitchell,Product,Product Manager,M1,"New York, NY",2024-01-20,,,,Active,170514,Meets Expectations,Abigail Shaffer,
+E00416,Mary Escobar,Engineering,QA Engineer,M1,"Austin, TX",2025-03-16,,,,Active,239010,Below Expectations,Allison Hill,
+E00417,Felicia Aguilar,Marketing,Content Strategist,M1,"San Francisco, CA",2020-02-29,,,,Active,122272,Meets Expectations,Angie Henderson,
+E00418,Gregory Ponce,Product,Senior Product Manager,L5,"Chicago, IL",2022-01-25,2026-03-31,Voluntary,Resigned - Career Change,Terminated,163550,Meets Expectations,Abigail Shaffer,2023-10-25
+E00419,Jenna Larson,Human Resources,Recruiter,L2,"Chicago, IL",2025-12-31,,,,Active,110006,Meets Expectations,Connie Lawrence,
+E00420,Emily Bennett,Marketing,Content Strategist,L5,"London, UK",2020-04-17,,,,Active,158675,Meets Expectations,Angie Henderson,
+E00421,Robin Santiago,Product,Product Analyst,M1,Remote - US,2023-09-27,2024-07-17,Voluntary,Resigned - New Opportunity,Terminated,211571,Meets Expectations,Abigail Shaffer,
+E00422,Nancy Jennings,Finance,Accountant,L3,Remote - US,2020-08-22,,,,Active,157723,Meets Expectations,Cristian Santos,2025-11-12
+E00423,Maria Henderson,Human Resources,HR Manager,L1,"Chicago, IL",2026-04-04,,,,Active,84395,Meets Expectations,Connie Lawrence,
+E00424,Jack White,Finance,Financial Analyst,L4,"Toronto, CA",2023-09-03,2024-06-26,Voluntary,Resigned - Career Change,Terminated,190497,Outstanding,Cristian Santos,
+E00425,Travis Tucker,Operations,Operations Analyst,M1,"London, UK",2025-08-07,,,,Active,117688,Meets Expectations,Gina Moore,
+E00426,Chad Jones,Finance,Controller,L2,"New York, NY",2021-02-04,,,,Active,146998,Meets Expectations,Cristian Santos,2022-04-28
+E00427,Ashley Wise,Finance,Accountant,L2,Remote - US,2019-01-24,,,,Active,96445,Meets Expectations,Cristian Santos,2021-10-14
+E00428,Sophia Johnson,Engineering,QA Engineer,M2,Remote - US,2024-07-02,,,,Active,221053,Meets Expectations,Allison Hill,2026-06-29
+E00429,Ralph Anderson,Customer Support,Support Associate,L5,"New York, NY",2024-08-31,,,,Active,70065,Meets Expectations,Daniel Wagner,
+E00430,Christopher Guerra,Customer Support,Support Team Lead,L3,"London, UK",2023-01-17,,,,Active,67691,Outstanding,Daniel Wagner,
+E00431,Rhonda Martin,Engineering,Software Engineer,M1,"London, UK",2023-12-31,,,,Active,153182,Meets Expectations,Allison Hill,
+E00432,Jason Rhodes,Engineering,Staff Engineer,L4,"New York, NY",2023-04-30,,,,Active,155188,Meets Expectations,Allison Hill,2025-10-10
+E00433,Jeremy Mitchell,Human Resources,HR Manager,L4,"Austin, TX",2022-04-29,,,,Active,159743,Exceeds Expectations,Connie Lawrence,
+E00434,Joann Ferguson,Marketing,Marketing Specialist,M1,"New York, NY",2021-05-13,,,,Active,149857,Below Expectations,Angie Henderson,
+E00435,Robert Harrison,Sales,Sales Development Rep,L5,"Toronto, CA",2026-04-02,,,,Active,186560,Exceeds Expectations,Noah Rhodes,
+E00436,Holly Valentine,Engineering,Engineering Manager,M1,"London, UK",2019-06-05,,,,Active,134308,Exceeds Expectations,Allison Hill,
+E00437,Mrs. Diane Reyes,Customer Support,Senior Support Associate,L4,"Toronto, CA",2024-01-22,,,,Active,92713,Meets Expectations,Daniel Wagner,2025-05-22
+E00438,Tracy Montoya,Sales,Account Executive,M1,"New York, NY",2023-01-05,,,,Active,199581,Exceeds Expectations,Noah Rhodes,
+E00439,Brenda Wright,Sales,Sales Manager,M2,"Denver, CO",2023-04-12,,,,Active,137228,Meets Expectations,Noah Rhodes,
+E00440,Shelly Spencer,Marketing,Brand Manager,M2,Remote - US,2026-02-10,,,,Active,98547,Meets Expectations,Angie Henderson,
+E00441,Ryan Rosales,Human Resources,HR Generalist,L5,"San Francisco, CA",2020-05-19,,,,Active,81801,Meets Expectations,Connie Lawrence,
+E00442,Phillip Nelson,Sales,Sales Manager,L2,"London, UK",2021-05-17,2025-01-29,Voluntary,Resigned - Relocation,Terminated,107138,Meets Expectations,Noah Rhodes,
+E00443,Brittany Kim,Finance,Accountant,L1,"San Francisco, CA",2026-07-11,,,,Active,113876,Below Expectations,Cristian Santos,
+E00444,Courtney Hayes,Operations,Logistics Coordinator,L5,"New York, NY",2022-04-05,,,,Active,128257,Meets Expectations,Gina Moore,2026-07-07
+E00445,Alexander Brown,Human Resources,HR Business Partner,L2,"Chicago, IL",2020-02-14,,,,Active,79959,Exceeds Expectations,Connie Lawrence,2023-11-05
+E00446,Cynthia Vang,Finance,Accountant,L5,"London, UK",2022-07-19,,,,Active,190700,Exceeds Expectations,Cristian Santos,2024-10-14
+E00447,Alfred Galvan,Product,Senior Product Manager,M2,"London, UK",2020-07-04,,,,Active,196510,Meets Expectations,Abigail Shaffer,
+E00448,Marie Moody,Finance,Controller,L5,"New York, NY",2020-12-20,2022-09-10,Voluntary,Resigned - Relocation,Terminated,158137,Exceeds Expectations,Cristian Santos,
+E00449,Dustin Gallegos,Sales,Account Executive,L1,"Austin, TX",2025-07-11,,,,Active,103785,Meets Expectations,Noah Rhodes,2026-07-13
+E00450,Brenda Thornton,Operations,Logistics Coordinator,M2,"San Francisco, CA",2023-02-07,,,,Active,104666,Outstanding,Gina Moore,
+E00451,Aaron Miller,Marketing,Brand Manager,L5,"New York, NY",2023-06-14,,,,Active,119976,Exceeds Expectations,Angie Henderson,2026-03-03
+E00452,Ruben Dunn,Marketing,Brand Manager,L2,"San Francisco, CA",2025-05-08,,,,Active,136153,Meets Expectations,Angie Henderson,
+E00453,Kelsey Rodriguez,Operations,Operations Manager,L1,"Chicago, IL",2024-06-20,,,,Active,59554,Meets Expectations,Gina Moore,2026-05-28
+E00454,Eric Williams,Human Resources,HR Manager,L4,"Denver, CO",2019-07-10,,,,Active,81631,Meets Expectations,Connie Lawrence,2026-05-14
+E00455,Riley Bryant,Finance,Finance Manager,L5,"San Francisco, CA",2023-03-23,,,,Active,158982,Meets Expectations,Cristian Santos,
+E00456,Taylor Carlson,Finance,Controller,L2,"Toronto, CA",2022-12-16,,,,Active,135378,Meets Expectations,Cristian Santos,
+E00457,Jose Allen,Engineering,QA Engineer,L2,"Denver, CO",2020-11-09,2024-06-23,Voluntary,Resigned - Career Change,Terminated,116849,Meets Expectations,Allison Hill,2022-09-12
+E00458,Jeffrey Mendez,Sales,Sales Development Rep,L4,"London, UK",2020-04-09,,,,Active,147337,Meets Expectations,Noah Rhodes,2022-03-05
+E00459,Jason Beck,Product,Product Manager,L2,"Austin, TX",2020-06-07,2021-04-22,Voluntary,Resigned - Relocation,Terminated,141613,Exceeds Expectations,Abigail Shaffer,
+E00460,William Jones,Marketing,Marketing Manager,L2,"Toronto, CA",2025-09-20,,,,Active,137693,Meets Expectations,Angie Henderson,
+E00461,Katie Mcneil,Finance,Financial Analyst,L2,"Denver, CO",2025-10-20,2026-06-20,Voluntary,Retirement,Terminated,149422,Below Expectations,Cristian Santos,
+E00462,Jeanette Harrison,Marketing,Content Strategist,L5,Remote - US,2020-11-17,,,,Active,155108,Meets Expectations,Angie Henderson,
+E00463,Veronica King,Customer Support,Senior Support Associate,L4,"San Francisco, CA",2020-03-20,,,,Active,63196,Meets Expectations,Daniel Wagner,
+E00464,Richard Cooper,Marketing,Marketing Specialist,L2,"Denver, CO",2025-11-23,,,,Active,109986,Outstanding,Angie Henderson,
+E00465,Lori Ingram,Sales,Account Executive,L4,"San Francisco, CA",2025-10-07,,,,Active,154096,Exceeds Expectations,Noah Rhodes,
+E00466,Evelyn Williams,Product,Product Analyst,L4,"London, UK",2019-06-27,,,,Active,198624,Meets Expectations,Abigail Shaffer,
+E00467,Robin Thompson,Product,Senior Product Manager,L5,"New York, NY",2023-10-09,,,,Active,132664,Meets Expectations,Abigail Shaffer,2025-01-01
+E00468,Julie Dominguez,Product,Senior Product Manager,L2,"Austin, TX",2019-01-30,,,,Active,142018,Exceeds Expectations,Abigail Shaffer,2022-05-20
+E00469,Robin Brown,Human Resources,HR Manager,L3,"New York, NY",2020-09-25,,,,Active,103298,Meets Expectations,Connie Lawrence,2024-09-26
+E00470,Judith Carter,Human Resources,HR Business Partner,M1,"Toronto, CA",2021-04-14,,,,Active,115603,Below Expectations,Connie Lawrence,
+E00471,Curtis Williams,Operations,Operations Manager,L3,"London, UK",2023-06-19,,,,Active,118249,Below Expectations,Gina Moore,
+E00472,Kaylee Hays,Operations,Logistics Coordinator,L2,"New York, NY",2021-05-28,,,,Active,88042,Below Expectations,Gina Moore,
+E00473,Dawn Mullins,Engineering,Senior Engineer,L4,"Austin, TX",2020-01-09,2022-10-03,Voluntary,Resigned - Career Change,Terminated,225172,Meets Expectations,Allison Hill,
+E00474,Howard Norman,Human Resources,HR Generalist,L5,"Austin, TX",2023-04-24,,,,Active,162692,Meets Expectations,Connie Lawrence,
+E00475,Evelyn Martinez,Engineering,Senior Engineer,M1,"Denver, CO",2023-12-04,,,,Active,124822,Below Expectations,Allison Hill,
+E00476,Steve Paul,Customer Support,Support Associate,M2,"Chicago, IL",2025-11-24,,,,Active,70552,Exceeds Expectations,Daniel Wagner,
+E00477,Jasmine Beltran,Engineering,Senior Engineer,L1,Remote - US,2023-06-25,,,,Active,109265,Meets Expectations,Allison Hill,
+E00478,Jonathan Glass MD,Sales,Account Executive,L5,Remote - US,2025-04-09,,,,Active,198056,Meets Expectations,Noah Rhodes,
+E00479,Monica Miller,Customer Support,Senior Support Associate,L4,"Austin, TX",2021-12-05,,,,Active,70819,Meets Expectations,Daniel Wagner,
+E00480,Samantha Gardner,Human Resources,HR Generalist,M2,Remote - US,2025-01-12,,,,Active,151996,Meets Expectations,Connie Lawrence,
+E00481,Bobby Guerrero,Operations,Operations Analyst,M2,"London, UK",2024-02-23,,,,Active,129094,Outstanding,Gina Moore,
+E00482,Lance Simmons,Finance,Financial Analyst,L4,"Chicago, IL",2021-07-30,,,,Active,174216,Meets Expectations,Cristian Santos,
+E00483,Heather Williams,Finance,Accountant,L3,"New York, NY",2023-06-23,,,,Active,142480,Below Expectations,Cristian Santos,2024-12-21
+E00484,Heather Bolton,Human Resources,Recruiter,L5,Remote - US,2021-01-18,,,,Active,164187,Meets Expectations,Connie Lawrence,
+E00485,William Gould,Customer Support,Support Associate,M1,"Chicago, IL",2021-12-23,,,,Active,72346,Exceeds Expectations,Daniel Wagner,2026-06-11
+E00486,Mark Cox,Sales,Account Executive,L1,"Denver, CO",2025-11-19,,,,Active,60006,Below Expectations,Noah Rhodes,
+E00487,Meghan Cisneros,Operations,Operations Manager,L5,"London, UK",2024-07-09,,,,Active,147391,Outstanding,Gina Moore,
+E00488,Lawrence Harrington,Marketing,Marketing Manager,L4,"Chicago, IL",2025-06-20,,,,Active,97003,Meets Expectations,Angie Henderson,
+E00489,Austin Osborne,Engineering,QA Engineer,L3,"Toronto, CA",2020-12-16,,,,Active,159198,Exceeds Expectations,Allison Hill,
+E00490,James Bradley,Engineering,Software Engineer,M1,"Chicago, IL",2023-04-04,,,,Active,195254,Meets Expectations,Allison Hill,
+E00491,Meghan Rush,Finance,Accountant,L3,"Denver, CO",2025-11-16,,,,Active,112064,Exceeds Expectations,Cristian Santos,
+E00492,Phillip Berry,Product,Product Analyst,M2,"London, UK",2023-02-04,,,,Active,216956,Meets Expectations,Abigail Shaffer,2024-06-17
+E00493,Jennifer Banks,Customer Support,Support Associate,M1,Remote - US,2021-08-23,,,,Active,89111,Below Expectations,Daniel Wagner,2023-06-25
+E00494,Brian Fitzgerald,Engineering,Senior Engineer,L4,"Denver, CO",2020-07-04,,,,Active,246451,Below Expectations,Allison Hill,
+E00495,Mr. Justin Green III,Operations,Operations Manager,L3,"Austin, TX",2023-06-20,,,,Active,70648,Exceeds Expectations,Gina Moore,2025-03-06
+E00496,Zachary Mitchell,Sales,Regional Sales Director,M1,"London, UK",2021-11-30,,,,Active,133232,Meets Expectations,Noah Rhodes,
+E00497,Katherine Martinez,Engineering,Engineering Manager,L1,"London, UK",2025-10-16,,,,Active,96815,Meets Expectations,Allison Hill,
+E00498,Jodi Roach,Marketing,Marketing Manager,L3,"London, UK",2026-07-20,,,,Active,118775,Below Expectations,Angie Henderson,
+E00499,Brandon Fleming,Sales,Regional Sales Director,L5,Remote - US,2024-03-14,,,,Active,164910,Exceeds Expectations,Noah Rhodes,2026-02-22
+E00500,Emma Reed,Product,Product Manager,L1,"San Francisco, CA",2022-11-08,,,,Active,93958,Meets Expectations,Abigail Shaffer,2025-05-08
+E00501,Joshua Vance,Product,Senior Product Manager,L4,"London, UK",2025-08-01,2026-02-27,Involuntary,Involuntary - Policy Violation,Terminated,177949,Meets Expectations,Abigail Shaffer,
+E00502,Michelle Ho,Finance,Financial Analyst,L2,"San Francisco, CA",2023-06-15,,,,Active,78240,Exceeds Expectations,Cristian Santos,
+E00503,Rebecca Hicks,Engineering,Engineering Manager,L5,"New York, NY",2020-03-01,,,,Active,155912,Exceeds Expectations,Allison Hill,
+E00504,Curtis Taylor,Finance,Accountant,L2,Remote - US,2023-12-21,2025-03-20,Involuntary,Involuntary - Policy Violation,Terminated,120118,Exceeds Expectations,Cristian Santos,
+E00505,Allison Spencer,Human Resources,HR Manager,L4,Remote - US,2025-02-24,2026-04-13,Voluntary,Retirement,Terminated,118480,Outstanding,Connie Lawrence,
+E00506,Robert Arnold,Product,Product Analyst,M1,Remote - US,2022-11-23,,,,Active,173353,Meets Expectations,Abigail Shaffer,2024-10-03
+E00507,Angelica Parker,Finance,Accountant,L3,"Austin, TX",2019-01-01,,,,Active,128645,Meets Expectations,Cristian Santos,2023-03-20
+E00508,Dr. Kelly Hammond DVM,Engineering,Engineering Manager,M2,"Denver, CO",2022-05-12,,,,Active,124627,Meets Expectations,Allison Hill,2024-08-27
+E00509,William Day,Human Resources,Recruiter,L4,"Toronto, CA",2023-06-05,,,,Active,100740,Meets Expectations,Connie Lawrence,
+E00510,Michael Cooper,Customer Support,Senior Support Associate,L1,"Toronto, CA",2026-01-05,,,,Active,48334,Meets Expectations,Daniel Wagner,
+E00511,Penny Bowman,Finance,Finance Manager,M1,Remote - US,2023-08-19,,,,Active,110552,Exceeds Expectations,Cristian Santos,2024-12-09
+E00512,Vincent Reynolds,Operations,Operations Manager,M1,"Denver, CO",2021-02-08,2022-12-07,Involuntary,Involuntary - Performance,Terminated,98594,Exceeds Expectations,Gina Moore,
+E00513,Amy Martinez,Finance,Accountant,M1,"Denver, CO",2019-02-03,,,,Active,115212,Exceeds Expectations,Cristian Santos,
+E00514,Christopher Morris,Finance,Controller,L3,"Denver, CO",2019-05-10,2020-05-26,Involuntary,Involuntary - Restructuring,Terminated,110882,Below Expectations,Cristian Santos,
+E00515,Hannah Everett,Operations,Operations Analyst,L2,Remote - US,2023-04-12,,,,Active,108836,Exceeds Expectations,Gina Moore,
+E00516,Sarah King,Operations,Operations Analyst,M1,"Austin, TX",2021-03-26,,,,Active,110440,Below Expectations,Gina Moore,
+E00517,Krista Martinez,Operations,Operations Manager,M1,Remote - US,2022-08-16,,,,Active,84902,Meets Expectations,Gina Moore,
+E00518,Joseph Shaw,Sales,Sales Manager,L4,Remote - US,2021-03-24,,,,Active,133169,Exceeds Expectations,Noah Rhodes,
+E00519,Todd Moore,Customer Support,Support Team Lead,L4,"London, UK",2019-03-03,2025-12-06,Involuntary,Involuntary - Performance,Terminated,70450,Meets Expectations,Daniel Wagner,2022-11-22
+E00520,Michelle Jacobs,Operations,Logistics Coordinator,L5,"San Francisco, CA",2023-03-02,,,,Active,136632,Meets Expectations,Gina Moore,

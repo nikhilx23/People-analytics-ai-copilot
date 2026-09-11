@@ -1,0 +1,128 @@
+name: CI
+
+# Runs the full verification suite (unit/integration tests, the 204-case
+# accuracy evaluation, and the adversarial security suite) against BOTH
+# supported database dialects. Since app/database/connection.py is the only
+# place any code talks to the database, and every test/eval/security run in
+# this repo has been run against both SQLite and PostgreSQL locally with
+# identical results, this workflow exists to keep that guarantee true on
+# every change, not just to check that the code imports.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  verify-sqlite:
+    name: Verify (SQLite)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate synthetic dataset
+        run: cd data && python3 generate_synthetic_data.py
+
+      - name: Load database (SQLite - default DATABASE_URL)
+        run: python3 -m app.database.load_data
+
+      - name: Run test suite
+        run: python3 -m pytest -q
+
+      - name: Run accuracy evaluation (204 cases)
+        run: python3 -m app.evaluation.eval_runner
+
+      - name: Run adversarial security suite
+        run: python3 -m app.evaluation.security_tests
+
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports-sqlite
+          path: |
+            app/evaluation/eval_results.csv
+            app/evaluation/security_results.csv
+
+  verify-postgres:
+    name: Verify (PostgreSQL)
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: copilot_app
+          POSTGRES_PASSWORD: copilot_dev_pw
+          POSTGRES_DB: people_analytics
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd="pg_isready -U copilot_app -d people_analytics"
+          --health-interval=5s
+          --health-timeout=5s
+          --health-retries=10
+    env:
+      DATABASE_URL: postgresql+psycopg2://copilot_app:copilot_dev_pw@localhost:5432/people_analytics
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate synthetic dataset
+        run: cd data && python3 generate_synthetic_data.py
+
+      - name: Load database (PostgreSQL)
+        run: python3 -m app.database.load_data
+
+      - name: Run test suite
+        run: python3 -m pytest -q
+
+      - name: Run accuracy evaluation (204 cases)
+        run: python3 -m app.evaluation.eval_runner
+
+      - name: Run adversarial security suite
+        run: python3 -m app.evaluation.security_tests
+
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports-postgres
+          path: |
+            app/evaluation/eval_results.csv
+            app/evaluation/security_results.csv
+
+  docker-build:
+    name: Docker build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build image
+        run: docker build -t people-analytics-ai-copilot:ci .
+
+      # This is the one step in this workflow that could NOT be verified in
+      # the sandbox this project was originally built in - that environment's
+      # network policy blocks all container registries (Docker Hub, GHCR,
+      # MCR, ECR, GCR all returned 403), so `docker build` never got past
+      # pulling the python:3.11-slim base image there. GitHub Actions runners
+      # have normal registry access, so this step is expected to build
+      # cleanly here even though it couldn't be exercised locally.
+      - name: Sanity-check compose config
+        run: docker compose config

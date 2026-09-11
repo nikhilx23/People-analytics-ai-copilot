@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+data/employee_analytics.db
+app/evaluation/eval_results.csv
+app/evaluation/security_results.csv
+.venv/
+venv/
+.env
+*.egg-info/
+.DS_Store

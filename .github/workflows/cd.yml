@@ -1,0 +1,69 @@
+name: CD - Deploy to Azure
+
+# NOT EXECUTED. Written against Azure Container Apps' documented GitHub
+# Actions deploy pattern, but never run - there is no Azure subscription or
+# set of Azure credentials available in the environment this project was
+# built in (see docs/AZURE_DEPLOYMENT.md). It is deliberately manual-only
+# (workflow_dispatch, no push trigger) so it can't fire in this or any fork
+# of this repo until someone with real Azure access reviews it, configures
+# the secrets below, and runs it on purpose once.
+#
+# Required repository secrets:
+#   AZURE_CREDENTIALS      - output of:
+#       az ad sp create-for-rbac --name people-analytics-copilot-cd \
+#         --role contributor \
+#         --scopes /subscriptions/<sub-id>/resourceGroups/<rg> \
+#         --sdk-auth
+#   ACR_NAME                - the Azure Container Registry name from infra/provision.sh
+#   AZURE_RESOURCE_GROUP    - the resource group name from infra/provision.sh
+
+on:
+  workflow_dispatch:
+    inputs:
+      image_tag:
+        description: "Image tag to build and deploy"
+        required: false
+        default: "latest"
+
+jobs:
+  deploy:
+    name: Build, push, and deploy
+    runs-on: ubuntu-latest
+    environment: production  # requires a manual approval gate if one is configured for this environment
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Azure login
+        uses: azure/login@v2
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: Build and push image via ACR Tasks
+        run: |
+          az acr build \
+            --registry "${{ secrets.ACR_NAME }}" \
+            --image "people-analytics-copilot:${{ inputs.image_tag }}" \
+            .
+
+      - name: Re-run the database load job
+        # Schema is DROP + recreate (see app/database/load_data.py) - safe
+        # to re-run, but this does reset to the fixed synthetic dataset.
+        # Skip this step once real HR data replaces the synthetic set.
+        run: |
+          az containerapp job start \
+            --resource-group "${{ secrets.AZURE_RESOURCE_GROUP }}" \
+            --name "people-analytics-copilot-db-init"
+
+      - name: Update api container app
+        run: |
+          az containerapp update \
+            --resource-group "${{ secrets.AZURE_RESOURCE_GROUP }}" \
+            --name "people-analytics-copilot-api" \
+            --image "${{ secrets.ACR_NAME }}.azurecr.io/people-analytics-copilot:${{ inputs.image_tag }}"
+
+      - name: Update frontend container app
+        run: |
+          az containerapp update \
+            --resource-group "${{ secrets.AZURE_RESOURCE_GROUP }}" \
+            --name "people-analytics-copilot-frontend" \
+            --image "${{ secrets.ACR_NAME }}.azurecr.io/people-analytics-copilot:${{ inputs.image_tag }}"
